@@ -1,6 +1,7 @@
 xquery version "1.0-ml";
 
 module namespace u = "http://marklogic.com/data-hub/util";
+declare namespace ref="http://marklogic.com/metadata-registry/reference-data";
 
 (:
 import module namespace u = "http://marklogic.com/data-hub/util" at "/modules/data-hub-util.xqy";
@@ -22,14 +23,23 @@ if ($element/* or $element/text())
 
 declare function u:unit-tests-status() as element() {
 <table>
-
-{
-for $uri in cts:uri-match('/unit-tests/*.xqy')
-return
-   <tr>
-      <td><a href="{$uri}">{$uri}</a></td>
-   </tr>
-
-}
+    {
+    for $uri in cts:uri-match('/unit-tests/*.xqy')
+    return
+       <tr>
+          <td><a href="{$uri}">{$uri}</a></td>
+       </tr>
+    
+    }
 </table>
+};
+
+declare function u:reference-value-to-label($element-name as xs:string, $value) as xs:string {
+let $reference-document := /ref:reference-data[ref:data-element-name=$element-name]
+let $label := $reference-document/ref:items/ref:item[ref:value = $value]/ref:label/text()
+return
+  if ($label)
+     then ($label)
+     else
+       concat('Error: No Value Found for element-name=', $element-name, ' value=', $value)
 };

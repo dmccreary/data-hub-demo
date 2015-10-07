@@ -1,89 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
-    targetNamespace="http://marklogic.com/data-hub/canonical/person/v1">
-
-    <xs:element name="person">
-        <xs:annotation>
-            <xs:documentation>Canonical data hub representation of a person.</xs:documentation>
-        </xs:annotation>
-        <xs:complexType>
-            <xs:sequence>
-                <xs:element name="identifiers">
-                    <xs:complexType>
-                        <xs:sequence>
-                            <xs:element name="identifier">
-                                <xs:complexType>
-                                    <xs:sequence>
-                                        <xs:element name="source-system-code"/>
-                                        <xs:element name="source-system-id"/>
-                                        <xs:element name="last-updated-datetime"/>
-                                    </xs:sequence>
-                                </xs:complexType>
-                            </xs:element>
-                        </xs:sequence>
-                    </xs:complexType>
-                </xs:element>
-                <xs:element name="name" minOccurs="0">
-                    <xs:complexType>
-                        <xs:sequence>
-                            <xs:element minOccurs="0" name="person-given-name">
-                                <xs:annotation>
-                                    <xs:documentation>The name given at birth.  Usually a first name.</xs:documentation>
-                                </xs:annotation>
-                            </xs:element>
-                            <xs:element maxOccurs="unbounded" minOccurs="0"
-                                name="person-middle-name"/>
-                            <xs:element minOccurs="0" name="person-family-name">
-                                <xs:annotation>
-                                    <xs:documentation>The names shared with other members of the family.  Often called the surname or last name.</xs:documentation>
-                                </xs:annotation>
-                            </xs:element>
-                            <xs:element minOccurs="0" name="person-prefix">
-                                <xs:annotation>
-                                    <xs:documentation>Mr., Mrs, Dr.</xs:documentation>
-                                </xs:annotation>
-                            </xs:element>
-                            <xs:element minOccurs="0" name="person-suffix">
-                                <xs:annotation>
-                                    <xs:documentation>Jr., Sr.</xs:documentation>
-                                </xs:annotation>
-                            </xs:element>
-                        </xs:sequence>
-                    </xs:complexType>
-                </xs:element>
-                <xs:element name="addresses" minOccurs="0">
-                    <xs:complexType>
-                        <xs:sequence>
-                            <xs:element name="address" maxOccurs="unbounded">
-                                <xs:complexType>
-                                    <xs:sequence>
-                                        <xs:element minOccurs="0" name="street-text"/>
-                                        <xs:element minOccurs="0" name="us-state-code"/>
-                                        <xs:element minOccurs="0" name="country-code"/>
-                                    </xs:sequence>
-                                </xs:complexType>
-                            </xs:element>
-                        </xs:sequence>
-                    </xs:complexType>
-                </xs:element>
-                <xs:element name="phone-numbers" minOccurs="0">
-                    <xs:complexType>
-                        <xs:sequence>
-                            <xs:element name="phone" maxOccurs="unbounded">
-                                <xs:complexType>
-                                    <xs:sequence>
-                                        <xs:element name="phone-type-code"/>
-                                        <xs:element name="phone-number"/>
-                                    </xs:sequence>
-                                </xs:complexType>
-                            </xs:element>
-                        </xs:sequence>
-                    </xs:complexType>
-                </xs:element>
-                <xs:element minOccurs="0" name="person-gender-code"/>
-                <xs:element minOccurs="0" name="person-ethnicity-code"/>
-                <xs:element minOccurs="0" name="person-race-code"/>
-            </xs:sequence>
-        </xs:complexType>
-    </xs:element>
+<xs:schema elementFormDefault="qualified" targetNamespace="http://marklogic.com/data-hub/canonical/person/v1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="person">
+    <xs:annotation>
+      <xs:documentation>Canonical data hub representation of a person.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+	<xs:element name="identifiers">
+	  <xs:complexType>
+	    <xs:sequence>
+	      <xs:element name="identifier">
+		<xs:complexType>
+		  <xs:sequence>
+		    <xs:element name="source-system-code"/>
+		    <xs:element name="source-system-id"/>
+		    <xs:element name="last-updated-datetime"/>
+		  </xs:sequence>
+		</xs:complexType>
+	      </xs:element>
+	    </xs:sequence>
+	  </xs:complexType>
+	</xs:element>
+	<xs:element name="name" minOccurs="0">
+	  <xs:complexType>
+	    <xs:sequence>
+	      <xs:element minOccurs="0" name="person-given-name">
+		<xs:annotation>
+		  <xs:documentation>The name given at birth.  Usually a first name.</xs:documentation>
+		</xs:annotation>
+	      </xs:element>
+	      <xs:element maxOccurs="unbounded" minOccurs="0" name="person-middle-name"/>
+	      <xs:element minOccurs="0" name="person-family-name">
+		<xs:annotation>
+		  <xs:documentation>The names shared with other members of the family.  Often called the surname or last name.</xs:documentation>
+		</xs:annotation>
+	      </xs:element>
+	      <xs:element minOccurs="0" name="person-prefix">
+		<xs:annotation>
+		  <xs:documentation>Mr., Mrs, Dr.</xs:documentation>
+		</xs:annotation>
+	      </xs:element>
+	      <xs:element minOccurs="0" name="person-suffix">
+		<xs:annotation>
+		  <xs:documentation>Jr., Sr.</xs:documentation>
+		</xs:annotation>
+	      </xs:element>
+	    </xs:sequence>
+	  </xs:complexType>
+	</xs:element>
+	<xs:element name="addresses" minOccurs="0">
+	  <xs:complexType>
+	    <xs:sequence>
+	      <xs:element name="address" maxOccurs="unbounded">
+		<xs:complexType>
+		  <xs:sequence>
+		    <xs:element minOccurs="0" name="street-text"/>
+		    <xs:element minOccurs="0" name="us-state-code"/>
+		    <xs:element minOccurs="0" name="country-code"/>
+		  </xs:sequence>
+		</xs:complexType>
+	      </xs:element>
+	    </xs:sequence>
+	  </xs:complexType>
+	</xs:element>
+	<xs:element name="phone-numbers" minOccurs="0">
+	  <xs:complexType>
+	    <xs:sequence>
+	      <xs:element name="phone" maxOccurs="unbounded">
+		<xs:complexType>
+		  <xs:sequence>
+		    <xs:element name="phone-type-code"/>
+		    <xs:element name="phone-number"/>
+		  </xs:sequence>
+		</xs:complexType>
+	      </xs:element>
+	    </xs:sequence>
+	  </xs:complexType>
+	</xs:element>
+	<xs:element minOccurs="0" name="person-gender-code"/>
+	<xs:element minOccurs="0" name="person-ethnicity-code"/>
+	<xs:element minOccurs="0" name="person-race-code"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
 </xs:schema>
