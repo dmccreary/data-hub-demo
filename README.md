@@ -7,6 +7,8 @@ The general ideal is to provide tools that support three process:
 2.1 XQuery Template Transforms
 2.2 XQuery Node Filter Transforms
 2.3 XQuery Typeswitch Transforms
-3 Agile REST Services
+3. Agile REST Services
 3.1 Use XQuery annotations and the RXQ framework to drive services
 3.2 Use URL rewriting to provide a flexible URL format
+
+Examples of unit testing and using XRay and Jenkins to automate the testing of these transformations is also provided.
