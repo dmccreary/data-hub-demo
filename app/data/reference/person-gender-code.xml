@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<reference-data xmlns="http://marklogic.com/metadata-registry/reference-data">
+    <data-element-name>person-gender-code</data-element-name>
+    <items>
+        <item>
+            <value>F</value>
+            <label>Female</label>
+        </item>
+        <item>
+            <value>M</value>
+            <label>Male</label>
+        </item>
+    </items>
+</reference-data>
