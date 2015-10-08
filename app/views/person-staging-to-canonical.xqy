@@ -1,5 +1,7 @@
 xquery version "1.0-ml";
 
+let $person-id := xdmp:get-request-field('person-id', '01')
+
 let $template := 
 <person xmlns="http://marklogic.com/data-hub/canonical/person/v1"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -13,7 +15,7 @@ let $template :=
     </identifiers>
     <name>
         <person-given-name></person-given-name>
-        <person-middle-name></person-middle-name>
+        <person-middle-name>{}/person-middle-name>
         <person-middle-name> </person-middle-name>
         <person-family-name> </person-family-name>
         <person-prefix> </person-prefix>
@@ -46,3 +48,4 @@ let $template :=
     <person-ethnicity-code> </person-ethnicity-code>
     <person-race-code> </person-race-code>
 </person>
+

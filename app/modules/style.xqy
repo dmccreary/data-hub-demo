@@ -14,8 +14,8 @@ return
 <html>
    <head>
       <title>{$title}</title>
-      <link rel="stylesheet" href="/ares-modules/resources/css/bootstrap.min.css"/>
-      <link rel="stylesheet" href="/ares-modules/resources/css/site.css"/>
+      <link rel="stylesheet" href="/resources/css/bootstrap.min.css"/>
+      <link rel="stylesheet" href="/resources/css/site.css"/>
    </head>
    <body>
       <div class="container">
@@ -29,8 +29,8 @@ return
 
 declare function style:header() as element() {
 <div class="header">
-   <img src="/resources/images/marklogic-logo-small.png"/>
-   <a href="/index.xqy">MarkLogic Data Hub Demo</a>
+   <a href="/index.xqy"><img src="/resources/images/marklogic-logo-small.png"/></a>
+   MarkLogic Data Hub Demo
 </div>
 };
 

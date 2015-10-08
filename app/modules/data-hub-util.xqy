@@ -22,15 +22,42 @@ if ($element/* or $element/text())
 };
 
 declare function u:unit-tests-status() as element() {
-<table>
-    {
-    for $uri in cts:uri-match('/unit-tests/*.xqy')
-    return
-       <tr>
-          <td><a href="{$uri}">{$uri}</a></td>
-       </tr>
-    
-    }
+<table class="table table-striped table-bordered table-hover table-condensed">
+   <thead>
+   </thead>
+    <tbody>
+        {
+        for $uri in cts:uri-match('/unit-tests/*.xqy')
+        return
+           if ($uri = '/unit-tests/index.xqy')
+           then ()
+           else
+           <tr>
+              <td><a href="{$uri}">{$uri}</a></td>
+           </tr>
+        
+        }
+    </tbody>
+</table>
+};
+
+declare function u:list-views() as element() {
+<table class="table table-striped table-bordered table-hover table-condensed">
+   <thead>
+   </thead>
+    <tbody>
+        {
+        for $uri in cts:uri-match('/views/*.xqy')
+        return
+        if ($uri = '/views/index.xqy')
+           then ()
+           else
+           <tr>
+              <td><a href="{$uri}">{$uri}</a></td>
+           </tr>
+        
+        }
+    </tbody>
 </table>
 };
 
