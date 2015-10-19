@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PERSON xmlns="http://marklogic.com/data-hub/src1/person-demographics">
+    <ID>01</ID>
+    <FIRST>Susan</FIRST>
+    <LAST>Brown</LAST>
+    <MIDDLE>Marie</MIDDLE>
+    <PREFIX></PREFIX>
+    <SUFFIX></SUFFIX>
+    <GENDER>F</GENDER>
+    <RACE>W</RACE>
+    <ETHNICITY>1</ETHNICITY>
+    <BIRTH_DATE>09/01/1970</BIRTH_DATE>
+</PERSON>

@@ -61,6 +61,23 @@ declare function u:list-views() as element() {
 </table>
 };
 
+declare function u:list-staging() as element() {
+<table class="table table-striped table-bordered table-hover table-condensed">
+   <thead>
+   </thead>
+    <tbody>
+        {
+        for $uri in cts:uri-match('/data/staging/*.xml')
+        return
+           <tr>
+              <td><a href="{$uri}">{$uri}</a></td>
+           </tr>
+        
+        }
+    </tbody>
+</table>
+};
+
 declare function u:reference-value-to-label($element-name as xs:string, $value) as xs:string {
 let $reference-document := /ref:reference-data[ref:data-element-name=$element-name]
 let $label := $reference-document/ref:items/ref:item[ref:value = $value]/ref:label/text()
