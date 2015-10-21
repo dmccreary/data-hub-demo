@@ -66,23 +66,24 @@ return
 <div class="prev-next-pagination-links">
     {if ($start >= $page-length)
        then <a href="{xdmp:get-request-path()}?start={$start - $page-length}" class="btn btn-primary">Previous</a>
-       else ()
+       (: disable and make gray but keep for spacing :)
+       else <a href="{xdmp:get-request-path()}?start={$start - $page-length}" class="btn btn-primary disabled opacity">Previous</a>
     }
     
-    <span class="center-links">
+    <span class="prev-next-page-links">
 
       {for $page in ($page-number-min to $page-number-max)
        return
          if ($page = $current-page)
             then
-            <a  class="btn btn-link link-text-black" href="{xdmp:get-request-path()}?start={(($page - 1) * $page-length) + 1}">{$page}</a>
+            <a  class="btn btn-link link-text-black prev-next-page-link" href="{xdmp:get-request-path()}?start={(($page - 1) * $page-length) + 1}">{$page}</a>
             else
-            <a class="btn btn-link" href="{xdmp:get-request-path()}?start={(($page - 1) * $page-length) + 1}">{$page}</a>
+            <a class="btn btn-link prev-next-page-link" href="{xdmp:get-request-path()}?start={(($page - 1) * $page-length) + 1}">{$page}</a>
        }
      </span>
      
     {if ($start < ($total-count - $page-length))
-       then <a href="{xdmp:get-request-path()}?start={$start + $page-length}" class="btn btn-primary">Next</a>
+       then <a href="{xdmp:get-request-path()}?start={$start + $page-length}" class="btn btn-primary pull-right">Next</a>
        else ()
     }
 </div>
