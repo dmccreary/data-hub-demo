@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <reference xmlns="http://marklogic.com/data-hub-demo/reference-data">
-    <name>person-gender-code</name>
+    <name>person-ethnicity-code</name>
     <items>
         <item>
             <value>1</value>
-            <label>Female</label>
+            <label>Hispanic</label>
         </item>
         <item>
             <value>2</value>
-            <label>Male</label>
+            <label>Non-Hispanic</label>
         </item>
     </items>
 </reference>

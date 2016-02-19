@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<reference xmlns="http://marklogic.com/metadata-registry/reference-data">
+    <name>person-race-code</name>
+    <items>
+        <item>
+            <value>1</value>
+            <label>American Indian/Native Americal</label>
+        </item>
+        <item>
+            <value>2</value>
+            <label>Asian</label>
+        </item>
+        <item>
+            <value>3</value>
+            <label>Black</label>
+        </item>
+        <item>
+            <value>4</value>
+            <label>Native Hawaiian/Pacific Islander</label>
+        </item>
+        <item>
+            <value>5</value>
+            <label>White</label>
+        </item>
+    </items>
+</reference>
