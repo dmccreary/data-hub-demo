@@ -4,4 +4,6 @@ table tbody tr td.number {text-align: right;}
 /* background-color: lavender; */
 .container-fluid {padding: 10px;}
 .header {padding:10px;}
-.footer {text-align: center; padding:10px;}
+.footer {text-align: left; padding:10px;}
+.title-in-header {font-size: 20pt; color: gray; padding: 0 20px;}
+.title-in-footer {font-size: 10pt; color: silver; padding: 0 20px;}

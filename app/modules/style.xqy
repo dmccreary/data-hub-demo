@@ -30,13 +30,18 @@ return
 declare function style:header() as element() {
 <div class="header">
    <a href="/index.xqy"><img src="/resources/images/marklogic-logo-small.png"/></a>
-   MarkLogic Data Hub Demo
+   <span class="title-in-header">MarkLogic Data Hub Demo</span>
+   <label>Search:</label>
+   <input id="search" type="search"/>
+   <span class="current-user"><a href="/forms/current-user.xqy">{xdmp:get-current-user()}</a></span>
 </div>
 };
 
 declare function style:footer() as element() {
 <div class="footer">
-  MarkLogic Data Hub Demo
+  
+  <a href="http://marklogic.com"><img src="/resources/images/powered-by-marklogic.png"/></a>
+  <span class="title-in-footer">MarkLogic Data Hub Demo</span>
 </div>
 };
 
