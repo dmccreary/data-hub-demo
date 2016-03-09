@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<reference xmlns="http://marklogic.com/data-hub-demo/reference-data">
+<?xml version="1.0" encoding="UTF-8"?><reference xmlns="http://marklogic.com/data-hub-demo/reference-data">
     <name>person-ethnicity-code</name>
     <items>
         <item>

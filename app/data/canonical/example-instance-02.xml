@@ -1,21 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<person xmlns="http://marklogic.com/data-hub/canonical/person/v1"
- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="http://marklogic.com/data-hub/canonical/person/v1 file:/Users/dmccrear/Documents/workspace/data-hub-demo/app/schemas/person-canonical.xsd">
+<?xml version="1.0" encoding="UTF-8"?><person xmlns="http://marklogic.com/data-hub/canonical/person/v1">
+    <id>02</id>
     <identifiers>
         <identifier>
-            <source-system-code>
-            </source-system-code>
-            <source-system-id>
-            </source-system-id>
-            <last-updated-datetime>
-            </last-updated-datetime>
+            <source-system-code/>
+            <source-system-id>123</source-system-id>
+            <last-updated-datetime/>
         </identifier>
     </identifiers>
     <name>
-        <person-given-name>
-        </person-given-name>
-        <person-middle-name>
+        <person-given-name/><person-middle-name>
         </person-middle-name>
         <person-middle-name>
         </person-middle-name>

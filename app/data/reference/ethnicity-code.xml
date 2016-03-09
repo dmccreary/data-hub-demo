@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><code-table name="ethnicity-code" version="20140401">
+    <items>
+        <item>
+            <code>2135-2</code>
+            <uri-code>hispanic-or-latino</uri-code>
+            <code-system>2.16.840.1.113883.6.238</code-system>
+            <code-system-name>CDCREC</code-system-name>
+            <code-system-version>1.0</code-system-version>
+            <label>Hispanic or Latino</label>
+        </item>
+        <item>
+            <code>2186-5</code>
+            <uri-code>not-hispanic-or-latino</uri-code>
+            <code-system>2.16.840.1.113883.6.238</code-system>
+            <code-system-name>CDCREC</code-system-name>
+            <code-system-version>1.0</code-system-version>
+            <label>Not Hispanic or Latino</label>
+        </item>
+    </items>
+</code-table>

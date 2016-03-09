@@ -9,7 +9,7 @@ declare function style:assemble-page($title as xs:string, $content as element())
 
 let $set-html-content := xdmp:set-response-content-type("text/html")
 
-(: <a href="views/index.xqy">List Views</a><br/> :)
+(: site.css is for site-specific CSS rules.  Don't change the bootstrap.min.css file. :)
 return
 <html>
    <head>

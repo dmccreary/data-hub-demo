@@ -21,6 +21,35 @@ if ($element/* or $element/text())
     else ()
 };
 
+(: list types in dir 
+Types is a comma separated list of extensions like xml,csv,xqy
+By default, index.xqy is not shown
+:)
+declare function u:list-dir($directory-uri as xs:string, $types as xs:string) as element() {
+let $file-extensions := tokenize($types, ',')
+let $all-uris :=
+  for $file-extension in $file-extensions
+     let $match-string := concat($directory-uri, '*.', $file-extension)
+     let $uris := cts:uri-match($match-string)
+  return 
+    $uris
+
+return
+<table class="table table-striped table-bordered table-hover table-condensed">
+   <thead>
+   </thead>
+    <tbody>
+        {
+        for $uri in $all-uris
+        return
+           <tr>
+              <td><a href="{$uri}">{$uri}</a></td>
+           </tr>
+        }
+    </tbody>
+</table>
+};
+
 declare function u:unit-tests-status() as element() {
 <table class="table table-striped table-bordered table-hover table-condensed">
    <thead>
