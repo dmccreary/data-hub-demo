@@ -12,6 +12,8 @@ declare namespace owl="http://www.w3.org/2002/07/owl#";
 declare namespace env="http://evn.topbraidlive.org/evnprojects#";
 declare namespace skos="http://www.w3.org/2004/02/skos/core#";
 declare namespace teamwork="http://topbraid.org/teamwork#";
+(: j.0 is not very semantic.  xmlns:j.0="http://topbraid.org/swa#" :)
+declare namespace topbraid-swa="http://topbraid.org/swa#";
 declare namespace semaphore-core="http://www.smartlogic.com/2014/08/semaphore-core#";
 declare namespace rdfs="http://www.w3.org/2000/01/rdf-schema#";
 declare namespace cycleing="http://example.com/Cycling-Taxonomy-V2#";
@@ -70,4 +72,50 @@ return
    <sem:triples xmlns="http://marklogic.com/semantics">
      {sem:rdf-parse($ontology-root, "rdfxml")}
    </sem:triples>
+};
+
+(: Get the name of the ontology
+<rdf:Description rdf:about="urn:x-evn-master:Cycling-Taxonomy-V2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdf:type rdf:resource="http://topbraid.org/teamwork#Vocabulary"/>
+    <rdf:type rdf:resource="http://evn.topbraidlive.org/evnprojects#Taxonomy"/>
+    <owl:imports rdf:resource="http://www.smartlogic.com/2015/02/semaphore-spin-constraints"/>
+    <owl:imports rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core"/>
+    <j.0:defaultNamespace>http://example.com/Cycling-Taxonomy-V2#</j.0:defaultNamespace>
+    <rdfs:label>Cycling Taxonomy V2</rdfs:label>
+  </rdf:Description>
+  :)
+  
+(: return the description of the ontology root :)
+declare function s:ontology-description($ontology-uri as xs:string) as element() {
+let $ontology-root := doc($ontology-uri)/rdf:RDF
+let $ontology-description := $ontology-root/rdf:Description[rdf:type/@rdf:resource="http://www.w3.org/2002/07/owl#Ontology"]
+return
+  if ($ontology-description)
+    then $ontology-description
+    else
+      <error>
+       <message>Error, no rdf:Description of type http://www.w3.org/2002/07/owl#Ontology</message>
+      </error>
+};
+
+declare function s:ontology-name($ontology-uri as xs:string) as xs:string {
+let $ontology-root := doc($ontology-uri)/rdf:RDF
+let $ontology-description := $ontology-root/rdf:Description[rdf:type/@rdf:resource="http://www.w3.org/2002/07/owl#Ontology"]
+let $ontology-name := $ontology-description/rdfs:label/text()
+return
+  if ($ontology-name)
+    then $ontology-name
+    else 'Error, no description label for type http://www.w3.org/2002/07/owl#Ontology'
+};
+
+(: <j.0:defaultNamespace>http://example.com/Cycling-Taxonomy-V2#</j.0:defaultNamespace> :)
+declare function s:ontology-default-namespace($ontology-uri as xs:string) as xs:string {
+let $ontology-root := doc($ontology-uri)/rdf:RDF
+let $ontology-description := $ontology-root/rdf:Description[rdf:type/@rdf:resource="http://www.w3.org/2002/07/owl#Ontology"]
+let $default-namespace := $ontology-description/topbraid-swa:defaultNamespace/text()
+return
+  if ($default-namespace)
+    then $default-namespace
+    else 'Error, no Description with topbraid-swa:defaultNamespace'
 };
