@@ -2,7 +2,7 @@ xquery version "1.0-ml";
 
 module namespace util="http://marklogic.com/data-hub-demo/util";
 (:
-import module namespace util="http://westacademic.com/util" at "/modules/util.xqy";
+import module namespace util="http://marklogic.com/data-hub-demo/util" at "/modules/util.xqy";
 :)
 declare namespace x="http://www.w3.org/1999/xhtml";
 

@@ -7,3 +7,4 @@ table tbody tr td.number {text-align: right;}
 .footer {text-align: left; padding:10px;}
 .title-in-header {font-size: 20pt; color: gray; padding: 0 20px;}
 .title-in-footer {font-size: 10pt; color: silver; padding: 0 20px;}
+.field-label {color:gray;}

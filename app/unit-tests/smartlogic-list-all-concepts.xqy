@@ -1,4 +1,4 @@
-import module namespace s = "http://marklogic.com/skos-xs-util" at "/modules/skos-xl-util.xqy";
+import module namespace s = "http://marklogic.com/skos-xl-util" at "/modules/skos-xl-util.xqy";
 
 let $title := 'list all concpts'
 (: returns a sequences of URIs for all the top concepts in the taxonomy :)

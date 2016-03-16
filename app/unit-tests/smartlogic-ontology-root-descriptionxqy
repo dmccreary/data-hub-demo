@@ -1,0 +1,14 @@
+import module namespace s = "http://marklogic.com/skos-xl-util" at "/modules/skos-xl-util.xqy";
+
+let $title := 'list all concpts'
+let $ontology-uri := '/data/smartlogic-models/cycling-taxonomy-v2.rdf'
+(: returns a sequences of URIs for all the top concepts in the taxonomy :)
+return
+<results>
+  <ontology-description>
+     {s:ontology-description($ontology-uri)}
+  </ontology-description>
+  <ontology-name>
+     {s:ontology-name($ontology-uri)}
+  </ontology-name>
+</results>

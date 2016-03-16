@@ -20,6 +20,18 @@ declare namespace cycleing="http://example.com/Cycling-Taxonomy-V2#";
 declare namespace skos-xl="http://www.w3.org/2008/05/skos-xl#";
 declare namespace xsd="http://www.w3.org/2001/XMLSchema#";
 
+(: Find a list of all the files in MarkLogic with the RDF Root element and at least one SKOS concept :)
+declare function s:list-skos-uris() as xs:string* {
+(: for systems with over 10,000 ontologies
+   replace this with a version of cts:search(/rdf:RDF, cts:attribute-value-query(xs:QName('rdf:resource'), 'http://www.w3.org/2004/02/skos/core#Concept' :)
+let $RDF-files := /rdf:RDF
+      [rdf:Description/rdf:type/@rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"
+       or rdf:Description/rdf:type/@rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"
+      ]
+for $uri in $RDF-files
+return
+   xdmp:node-uri($uri)
+};
 
 (: given an input URI of a SKOS-XL ontology, this will return a sequence the URIS of all core concepts :)
 declare function s:concepts($ontology-uri as xs:string) as xs:string* {
@@ -28,9 +40,21 @@ return
    $ontology-doc/rdf:Description[rdf:type/@rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"]/@rdf:about/string()
 };
 
+(: given an input URI of a SKOS-XL ontology, this will return a sequence the URIS of all core concepts :)
+declare function s:classes($ontology-uri as xs:string) as xs:string* {
+let $ontology-doc := doc($ontology-uri)/rdf:RDF
+return
+   $ontology-doc/rdf:Description[rdf:type/@rdf:resource="http://www.w3.org/2002/07/owl#Class"]/@rdf:about/string()
+};
+
 
 declare function s:count-concepts($ontology-uri as xs:string) as xs:nonNegativeInteger {
   count(s:concepts($ontology-uri))
+};
+
+declare function s:count-descriptions($ontology-uri as xs:string) as xs:nonNegativeInteger {
+let $ontology := doc($ontology-uri)/rdf:RDF
+ return count($ontology/rdf:Description)
 };
 
 (: return a sequence of URIs for the top concepts in a taxonomy
@@ -47,7 +71,7 @@ Givent
 declare function s:top-concepts($ontology-uri as xs:string) as xs:string* {
 let $ontology-doc := doc($ontology-uri)/rdf:RDF
 return
-$ontology-doc//skos:hasTopConcept/@rdf:resource/string()
+    $ontology-doc//skos:hasTopConcept/@rdf:resource/string()
 };
 
 (:
@@ -86,10 +110,14 @@ return
   </rdf:Description>
   :)
   
-(: return the description of the ontology root :)
+(: return the description of the ontology root 
+http://www.w3.org/2004/02/skos/core#ConceptScheme
+:)
 declare function s:ontology-description($ontology-uri as xs:string) as element() {
 let $ontology-root := doc($ontology-uri)/rdf:RDF
-let $ontology-description := $ontology-root/rdf:Description[rdf:type/@rdf:resource="http://www.w3.org/2002/07/owl#Ontology"]
+let $ontology-description := $ontology-root/rdf:Description
+   [rdf:type/@rdf:resource="http://www.w3.org/2002/07/owl#Ontology" 
+   or rdf:type/@rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"]
 return
   if ($ontology-description)
     then $ontology-description
@@ -99,14 +127,23 @@ return
       </error>
 };
 
-declare function s:ontology-name($ontology-uri as xs:string) as xs:string {
+declare function s:ontology-name($ontology-uri as xs:string) as xs:string* {
 let $ontology-root := doc($ontology-uri)/rdf:RDF
-let $ontology-description := $ontology-root/rdf:Description[rdf:type/@rdf:resource="http://www.w3.org/2002/07/owl#Ontology"]
-let $ontology-name := $ontology-description/rdfs:label/text()
+
+let $ontology-description := $ontology-root/rdf:Description
+   [rdf:type/@rdf:resource="http://www.w3.org/2002/07/owl#Ontology"]
+   
+let $concept-scheme-description := $ontology-root/rdf:Description
+   [rdf:type/@rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"]
+    
+let $ontology-description-name := $ontology-description/rdfs:label/text()
+let $concept-scheme-name := $concept-scheme-description/rdfs:label/text()
 return
-  if ($ontology-name)
-    then $ontology-name
-    else 'Error, no description label for type http://www.w3.org/2002/07/owl#Ontology'
+   if ($ontology-description-name)
+      then $ontology-description-name[1]
+      else if ($concept-scheme-name)
+         then $concept-scheme-name[1]
+         else 'Error, no description label for type http://www.w3.org/2002/07/owl#Ontology or type http://www.w3.org/2004/02/skos/core#ConceptScheme'
 };
 
 (: <j.0:defaultNamespace>http://example.com/Cycling-Taxonomy-V2#</j.0:defaultNamespace> :)
@@ -119,3 +156,82 @@ return
     then $default-namespace
     else 'Error, no Description with topbraid-swa:defaultNamespace'
 };
+
+(: return a sequence of the distinct elements in an ontology SKOS-XL file :)
+declare function s:distinct-element-names($ontology-uri as xs:string)  as xs:string* {
+let $ontology-root := doc($ontology-uri)/rdf:RDF
+return distinct-values($ontology-root/descendant-or-self::*/name(.))
+ };
+
+(: should this be a QName? :)
+declare function s:element-definition($element-name as xs:string)  as xs:string* {
+'no definition found'
+ };
+ 
+ (:
+ skos-xl:literalForm
+ 
+   <rdf:Description
+    rdf:about="http://example.com/Cycling-Taxonomy-V2#Sporting-Goods-and-Equipment/Sporting-Goods-and-Equipment_en">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <skos-xl:literalForm xml:lang="en">Sporting Goods and Equipment</skos-xl:literalForm>
+  </rdf:Description>
+  
+  The Prefix is the ontology URI.  The Suffix is the Concept URI.
+  
+  Prefix: http://example.com/Cycling-Taxonomy-V2
+  Suffix: Sports-and-Recreation-Services
+  
+  Input:
+  http://example.com/Cycling-Taxonomy-V2#Sports-and-Recreation-Services
+  
+  Full URI:
+  http://example.com/Cycling-Taxonomy-V2#Sports-and-Recreation-Services/Sports-and-Recreation-Services_en
+ :)
+ 
+ (: 
+    Look for the general English Language name of a thing.
+    
+    this searches ALL ontologies for a literal name given a fully qualified concept or class URI.
+    Note it will return the first literal it finds since their might be multiple literalForms.
+    Perhaps we should pass in ontology URI and the Concept URI seperatly?
+    What if we have two versions of the same ontology? 
+    
+    <rdf:Description rdf:about="http://proto.smartlogic.com/example#PrivateCompany">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">Private Company</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://proto.smartlogic.com/example#Company"/>
+  </rdf:Description>
+  
+    :)
+ declare function s:name($uri as xs:string) as xs:string {
+ let $suffix := substring-after($uri, '#')
+ let $language-code := 'en'
+ let $full-uri := concat($uri, '/', $suffix, '_', $language-code)
+ let $literal := /rdf:RDF/rdf:Description[@rdf:about=$full-uri]/skos-xl:literalForm/text()
+ let $label := /rdf:RDF/rdf:Description[@rdf:about=$uri]/rdfs:label/text()
+ return
+    if ($literal)
+       then $literal[1]
+       else if ($label)
+         then $label[1]
+         else concat('no name found for ', $full-uri)
+ };
+ 
+ (:
+ find all concepts that have this concept-uri as a broader concept 
+ <rdf:Description rdf:about="http://example.com/Cycling-Taxonomy-V2#Cycling-Equipment">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://example.com/Cycling-Taxonomy-V2#Sporting-Goods-and-Equipment"/>
+  </rdf:Description>
+ 
+ 
+                  rdf:type/@rdf:resource='http://www.w3.org/2004/02/skos/core#Concept'
+                  and
+ :)
+ 
+ declare function s:narrower-concepts($concept-uri as xs:string) {
+ /rdf:Description[
+                  skos:broader/@rdf:resource=$concept-uri
+                 ]
+ };

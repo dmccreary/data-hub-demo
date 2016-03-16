@@ -1,0 +1,2072 @@
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:j.0="http://vocab.optum.com/UHG2015/class#" xmlns:j.1="http://www.smartlogic.com/2014/08/semaphore-core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:j.2="http://example.com/POC-Healthcare-Taxo#" xmlns:j.3="http://vocab.optum.com/UHG2015/noteType#" xmlns:j.4="http://topbraid.org/swa#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:j.5="http://smartlogic.com/OntologyServer#" xmlns:j.6="http://www.w3.org/2004/02/skos/core#" xmlns:j.7="http://topbraid.org/teamwork#" xmlns:j.8="http://www.w3.org/2008/05/skos-xl#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"> 
+  
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#77571555736161329356944">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Health-Topics"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#77571555736161329356944_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#85980571729228241913228"/>
+    <j.1:guid>9d43342b-f195-55bc-aac3-beb242094cce</j.1:guid>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#146216099318490643838586_English_210"/>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#146216099318490643838586_English_168"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/class#Role">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Role</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#182162528600966526918357_English_193">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">COPD</j.8:literalForm>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#721516037057663896386917400377521">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Benefits"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#721516037057663896386917400377521_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#166983189514356966944402"/>
+    <j.1:guid>89720bf9-ed69-5477-abfe-93c47a83a146</j.1:guid>
+    <j.6:related rdf:resource="http://vocab.optum.com/UHG2015/term#651855356050013051024943160016389"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#24048922516513378570297_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">network doctors</j.8:literalForm>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#1345595542482356428451_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Chart</j.8:literalForm>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#39828772459079930959099">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Document-Types"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#39828772459079930959099_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#198685889863903851367525"/>
+    <j.1:guid>f04fe957-2e1f-53b4-ba7c-37dd778c0a1b</j.1:guid>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#174036604011541788769369_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Broshure</j.8:literalForm>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/noteType#Display-name_9">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>Display name</rdfs:label>
+    <j.5:noteRangeFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</j.5:noteRangeFrom>
+    <j.5:noteRangeTo rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</j.5:noteRangeTo>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <j.5:changeable rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</j.5:changeable>
+    <rdfs:domain rdf:resource="http://vocab.optum.com/UHG2015/class#Document-Types"/>
+    <j.5:unique rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</j.5:unique>
+    <j.5:translatable rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</j.5:translatable>
+    <rdfs:subPropertyOf rdf:resource="http://smartlogic.com/OntologyServer#TextNoteType"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#113352610050741050425035_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">infertility treatment</j.8:literalForm>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#162250368493430617328065/BH_en">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">BH</j.8:literalForm>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#121304077344098210495060">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Benefits"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#121304077344098210495060_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#164525258321559942430155"/>
+    <j.1:guid>c44e0c97-6879-5eaf-a4ef-4a0a31cbd7fe</j.1:guid>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#188295191638515198789706_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">pocket expense</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#162250368493430617328065">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Benefits"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#162250368493430617328065_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#166983189514356966944402"/>
+    <j.1:guid>be5e4884-2bc8-5e0a-8d81-aabda717d998</j.1:guid>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/term#162250368493430617328065/BH_en"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#56349728750763989657756_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">hospice services</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#74912651248524779782817_English_181">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Medication Resources for Seniors</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://smartlogic.com/OntologyServer#displayLabel">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#1448484313225398716802">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Eligibility"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#1448484313225398716802_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#10772599227523669682489"/>
+    <j.1:guid>2ed75b4a-3f7c-530e-b1b1-b0bff5ff6dd1</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#170983203113575510991131_English_189">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Family members</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#125672853350752259384799_English_208">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">BSOA</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#189474129925748857154942">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Document-Types"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#189474129925748857154942_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#198685889863903851367525"/>
+    <j.1:guid>fe2ca2a8-113f-506b-9cb5-0799e15a2985</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#205690207139944122369253">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Authorizations"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#205690207139944122369253_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#188649781228246759609102"/>
+    <j.1:guid>c0aada6c-a78d-5b93-912e-94d4f0d4c11a</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://smartlogic.com/OntologyServer#RegexNoteType">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://smartlogic.com/OntologyServer#NoteType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/Optum-Healthcare-Taxonomy#Triage">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Health-Topics"/>
+    <j.8:prefLabel rdf:resource="http://example.com/Optum-Healthcare-Taxonomy#Triage/Triage_en"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#85980571729228241913228"/>
+    <j.1:guid>5fa8b1bb-be83-4c7d-8e7b-696650e4d8cd</j.1:guid>
+    <j.6:related rdf:resource="http://vocab.optum.com/UHG2015/term#21869552545695626266346"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://smartlogic.com/OntologyServer#DecimalNoteType">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://smartlogic.com/OntologyServer#NoteType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#49495959174915861490023_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Wellness Coach</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#175552158369751003412522">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Benefits"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#175552158369751003412522_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#164525258321559942430155"/>
+    <j.1:guid>0e75adb9-e1c8-5e46-8406-aafc3e9adb03</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#15203692431740279287411_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">hospitals stays</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#7309409650697757589447_English_190">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">BCBS</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/noteType#Display-name_8">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>Display name</rdfs:label>
+    <j.5:noteRangeFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</j.5:noteRangeFrom>
+    <j.5:noteRangeTo rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</j.5:noteRangeTo>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <j.5:changeable rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</j.5:changeable>
+    <rdfs:domain rdf:resource="http://vocab.optum.com/UHG2015/class#Payments"/>
+    <j.5:unique rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</j.5:unique>
+    <j.5:translatable rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</j.5:translatable>
+    <rdfs:subPropertyOf rdf:resource="http://smartlogic.com/OntologyServer#TextNoteType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#113845173924048399531172_English_178">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Primary care physician</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#52861121849998942955932">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Payments"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#52861121849998942955932_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#94968718269708299355578"/>
+    <j.1:guid>b6c34ebe-3a7a-5c2f-8f5d-ae4ddb97094e</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#10772599227523669682489">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Eligibility"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#10772599227523669682489_English"/>
+    <j.1:guid>72022836-98d8-5aec-99bf-bb5b7857b14b</j.1:guid>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#182050217120255688790245_English_192"/>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#170983203113575510991131_English_206"/>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#170983203113575510991131_English_189"/>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#182050217120255688790245_English_209"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#96866388520323523624874">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Benefits"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#96866388520323523624874_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#166983189514356966944402"/>
+    <j.1:guid>ae9abd69-596a-5da3-abd4-aee6b8ff67de</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#1345595542482356428451">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Document-Types"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#1345595542482356428451_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#198685889863903851367525"/>
+    <j.1:guid>45e1fc1d-d622-574b-9ef1-a44f16cdb691</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#155265755356462846513806_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">postnatal care</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://smartlogic.com/OntologyServer#notePrecision">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#46337299319287674414568_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">MEDICAL PLAN COVERAGE</j.8:literalForm>
+    <j.8:literalForm xml:lang="en">Medical Plan Coverage</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#41751968973959887525768">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Organizations"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#41751968973959887525768_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#191379280292005527997706"/>
+    <j.1:guid>1f09884c-5ae2-5c3b-b5b1-a43200015410</j.1:guid>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#144376776363965112846542_English_160"/>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#144376776363965112846542_English_173"/>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#125672853350752259384799_English_208"/>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#125672853350752259384799_English_166"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#183476548241656813382244_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">rehabilitation services</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/noteType#Display-name_7">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>Display name</rdfs:label>
+    <j.5:noteRangeFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</j.5:noteRangeFrom>
+    <j.5:noteRangeTo rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</j.5:noteRangeTo>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <j.5:changeable rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</j.5:changeable>
+    <rdfs:domain rdf:resource="http://vocab.optum.com/UHG2015/class#Benefits"/>
+    <j.5:unique rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</j.5:unique>
+    <j.5:translatable rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</j.5:translatable>
+    <rdfs:subPropertyOf rdf:resource="http://smartlogic.com/OntologyServer#TextNoteType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#163049352069235279202811">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Benefits"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#163049352069235279202811_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#166983189514356966944402"/>
+    <j.1:guid>568ecbf4-64c7-50e1-988f-20d1c8e0d95c</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#163796964036213072248369">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Document-Types"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#163796964036213072248369_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#198685889863903851367525"/>
+    <j.1:guid>e218d912-1e3e-5dac-9e1b-ef89fc054df8</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://smartlogic.com/OntologyServer#propagateToChildren">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#142346253078772580425445_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Biomet</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://smartlogic.com/OntologyServer#DateNoteType">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://smartlogic.com/OntologyServer#NoteType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#159462236559706248776909_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Blue Cross Blue Shield</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#54714804762086526978859">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Organizations"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#54714804762086526978859_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#191379280292005527997706"/>
+    <j.1:guid>f1618581-bf62-5a5e-b4e5-e4dfda8b5f4c</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#146824194134426616940822_English_186">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Dental coverage</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#38411167199874972362427_English_195">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">health care benefits</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#82255895813927300114390_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">health care providers</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#159640434811427594730092">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Health-Topics"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#159640434811427594730092_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#85980571729228241913228"/>
+    <j.1:guid>8fea80f4-8693-5847-b6f8-b20dcf9519a7</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#33697939418766039558012_English_169">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">routine eye care</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/noteType#Display-name_6">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>Display name</rdfs:label>
+    <j.5:noteRangeFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</j.5:noteRangeFrom>
+    <j.5:noteRangeTo rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</j.5:noteRangeTo>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <j.5:changeable rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</j.5:changeable>
+    <rdfs:domain rdf:resource="http://vocab.optum.com/UHG2015/class#Authorizations"/>
+    <j.5:unique rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</j.5:unique>
+    <j.5:translatable rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</j.5:translatable>
+    <rdfs:subPropertyOf rdf:resource="http://smartlogic.com/OntologyServer#TextNoteType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#178901931500972760821261_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Caregiving</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://smartlogic.com/OntologyServer#noteRangeTo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#97375631673127162632251_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Presentation</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#84473368237802091731329">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Authorizations"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#84473368237802091731329_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#148383578003930800247165"/>
+    <j.1:guid>b32d966a-60e0-55be-a0bb-3a3ea3ab9161</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#167487837678100154098203">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Benefits"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#167487837678100154098203_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#166983189514356966944402"/>
+    <j.1:guid>77e67fda-0922-522a-b7ba-2f5e91093785</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#75959018168295003251672_English_161">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Resources for Aging</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#41751968973959887525768_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Boy Scouts of America</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#167487837678100154098203_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Life insurance</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#17219982667114428059331_English_174">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">health care</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#189474129925748857154942_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Screen Shots</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://smartlogic.com/OntologyServer#choiceTypeDefaultValue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#85568647886080200696865_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Handout</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#34902535497175766423204">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Benefits"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#34902535497175766423204_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#167050773480727416888637"/>
+    <j.1:guid>5fbdda44-6781-53c6-aebf-7ebaea60387f</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#152232085953441660389875_English_203">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Flexible spending account</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#183476548241656813382244">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Benefits"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#183476548241656813382244_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#166983189514356966944402"/>
+    <j.1:guid>505329e7-07be-55cb-aa8f-47d457105133</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#34826095005580749438236_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Health Plan Types</j.8:literalForm>
+    <j.1:rulebaseAction rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#RulebaseActionDoNotGenerate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#188295191638515198789706">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Payments"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#188295191638515198789706_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#94968718269708299355578"/>
+    <j.1:guid>570fcb90-f7f5-51d4-b71a-a9a7f3c7073c</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#182162528600966526918357_English_175">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">COPD</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://smartlogic.com/OntologyServer#choiceTypeValue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#166983189514356966944402_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Benefits</j.8:literalForm>
+    <j.1:rulebaseAction rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#RulebaseActionDoNotGenerate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://smartlogic.com/OntologyServer#translatable">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#67720466202192661993825">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Benefits"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#67720466202192661993825_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#166983189514356966944402"/>
+    <j.1:guid>507c9ca2-14be-5ed2-b5ec-d768ad518299</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#102607718530739159793174_English_172">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">generics drugs</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/noteType#image_URL_14">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>image_URL</rdfs:label>
+    <j.5:noteRangeFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</j.5:noteRangeFrom>
+    <j.5:noteRangeTo rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4000</j.5:noteRangeTo>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <j.5:changeable rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</j.5:changeable>
+    <rdfs:domain rdf:resource="http://vocab.optum.com/UHG2015/class#Organizations"/>
+    <j.5:unique rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</j.5:unique>
+    <j.5:translatable rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</j.5:translatable>
+    <rdfs:subPropertyOf rdf:resource="http://smartlogic.com/OntologyServer#TextNoteType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#49495959174915861490023">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Authorizations"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#49495959174915861490023_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#188649781228246759609102"/>
+    <j.1:guid>1667c58f-6a9f-5657-8714-e10a99415a0c</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#76768815157470754758_English_177">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">medical/prescription plan</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#193499641546086612174516_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Organizations</j.8:literalForm>
+    <j.1:rulebaseAction rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#RulebaseActionGenerate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#196796755021627810038721_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Health Care Flexible Spending Account</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#21869552545695626266346">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Authorizations"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#21869552545695626266346_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#188649781228246759609102"/>
+    <j.1:guid>005fbd28-abc4-569b-8565-1472baa7b353</j.1:guid>
+    <j.6:related rdf:resource="http://example.com/Optum-Healthcare-Taxonomy#Triage"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#155265755356462846513806">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Benefits"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#155265755356462846513806_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#80428760599859228794712"/>
+    <j.1:guid>9c09b1d2-e4c1-5458-bdd3-035a5c2d74b1</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://smartlogic.com/OntologyServer#noteRegexStr">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#102607718530739159793174_English_197">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">generics drugs</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#69210453143965871414349_English_202">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Prescription drug expenses</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#94968718269708299355578">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Payments"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#94968718269708299355578_English"/>
+    <j.1:guid>02f131a8-787a-5eba-a3bd-84a1d0d2e486</j.1:guid>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#37403107624460715243087_English_204"/>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#37403107624460715243087_English_158"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#154179450265739950586996">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Document-Types"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#154179450265739950586996_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#198685889863903851367525"/>
+    <j.1:guid>e51d45bb-20e5-57ba-8948-92d6680946ac</j.1:guid>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#75053510131467088805361_English_191"/>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#188417423444138987595208_English_185"/>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#75053510131467088805361_English_187"/>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#188417423444138987595208_English_194"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#193499641546086612174516">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Organizations"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#193499641546086612174516_English"/>
+    <j.1:guid>fa590a30-9f39-5e0d-9f21-0f2f5383e6e6</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#173372194729748053343605">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Health-Topics"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#173372194729748053343605_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#85980571729228241913228"/>
+    <j.1:guid>ce57c6d4-7245-5323-b942-f2367fb821fa</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#76002535666137191227255_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Laboratory tests</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#75053510131467088805361_English_187">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">plan document</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://smartlogic.com/OntologyServer#unique">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#55720084061667828004535">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Health-Plan-Types"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#55720084061667828004535_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#34826095005580749438236"/>
+    <j.1:guid>1b2fb6bc-65c8-5a9b-abc7-d9ba2b4a9b0b</j.1:guid>
+    <j.2:appliesTo rdf:resource="http://optum.com/ns/canonical/concept/Entities_Individuals"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#203286557564184986724166_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Hewlett-Packard</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#90070278244616957909722">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Benefits"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#90070278244616957909722_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#166983189514356966944402"/>
+    <j.1:guid>3688c0a2-5f1c-5d87-9d7f-ff08faa81e07</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#38032580447636315670666_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Memory Changes</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#97662240315416269003251_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">future expenses</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#166983189514356966944402">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Benefits"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#166983189514356966944402_English"/>
+    <j.1:guid>0081a2cb-4cd5-516d-9866-36bb1862d2ac</j.1:guid>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#38411167199874972362427_English_176"/>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#17219982667114428059331_English_174"/>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#17219982667114428059331_English_200"/>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#38411167199874972362427_English_195"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#39828772459079930959099_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Handbook</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#60767617258153339791760_English_199">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">ppo</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#60767617258153339791760_English_187">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">ppo</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#177990100111603489469225_English_181">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">prescription drug cost</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#147780034427219824085132_English_182">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Prescription drug benefits</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#90070278244616957909722_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">weight loss program</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#122691819206710869687407_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Aetna</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#147780034427219824085132_English_170">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Prescription drug benefits</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/Optum-Healthcare-Taxonomy#Triage/Triage_en">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Triage</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#139603619030454815483198">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Document-Types"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#139603619030454815483198_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#198685889863903851367525"/>
+    <j.1:guid>b2c1ba45-280d-5fb0-93cb-7e6107787b44</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/class#Health-Plan-Types">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Health Plan Types</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#101054131010034373160847">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Health-Topics"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#101054131010034373160847_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#85980571729228241913228"/>
+    <j.1:guid>8586bba0-e033-525c-b3aa-5972cfcb7e7d</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#64093512967595138371749">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Benefits"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#64093512967595138371749_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#166983189514356966944402"/>
+    <j.1:guid>5c391298-86fc-5516-acd4-e1c9703e8635</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#175796935927322378626868_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">eligible expenses</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#10772599227523669682489_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Eligibility</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#105381852461633259683253">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Benefits"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#105381852461633259683253_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#166983189514356966944402"/>
+    <j.1:guid>19a5eeed-25f9-5908-bf84-9f45a6d922dc</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#103419478111742568843381">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Document-Types"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#103419478111742568843381_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#198685889863903851367525"/>
+    <j.1:guid>eca9f244-8a3e-5820-93ec-0d80b4702f25</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#97375631673127162632251">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Document-Types"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#97375631673127162632251_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#198685889863903851367525"/>
+    <j.1:guid>c3e19c50-a463-5897-b49c-b2c75e300241</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://smartlogic.com/OntologyServer#changeable">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#94047319142587576831360_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Insurance Providers</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#154398434528090570760336525046834_English_179">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Doctor of Dental Surgery</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#136175378997704337985206_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">covered family member</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#149492416932190757502033_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Highlights</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#9116137598724080416969_English_162">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">overnight stay</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/noteType#Display-name_11">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>Display name</rdfs:label>
+    <j.5:noteRangeFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</j.5:noteRangeFrom>
+    <j.5:noteRangeTo rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</j.5:noteRangeTo>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <j.5:changeable rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</j.5:changeable>
+    <rdfs:domain rdf:resource="http://vocab.optum.com/UHG2015/class#Health-Plan-Types"/>
+    <j.5:unique rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</j.5:unique>
+    <j.5:translatable rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</j.5:translatable>
+    <rdfs:subPropertyOf rdf:resource="http://smartlogic.com/OntologyServer#TextNoteType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#85568647886080200696865">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Document-Types"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#85568647886080200696865_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#198685889863903851367525"/>
+    <j.1:guid>d09bb245-d300-59e2-a1dd-2f3af75c57c4</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#24048922516513378570297">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Benefits"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#24048922516513378570297_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#166983189514356966944402"/>
+    <j.1:guid>22adbf7e-2052-51a9-87c8-ab8346cdbef1</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#95313710829642888260021">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Benefits"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#95313710829642888260021_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#76002535666137191227255"/>
+    <j.1:guid>c2afd172-b488-5649-965b-9111b1f33fd1</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#6422999165996042766796">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Benefits"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#6422999165996042766796_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#164525258321559942430155"/>
+    <j.1:guid>c5c8df1e-26d7-5e01-8909-00915bf63811</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#198685889863903851367525">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Document-Types"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#198685889863903851367525_English"/>
+    <j.1:guid>92c42938-2bc1-54da-9348-a4102a19148a</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#139603619030454815483198_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Mailer</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/noteType#Display-name_10">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>Display name</rdfs:label>
+    <j.5:noteRangeFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</j.5:noteRangeFrom>
+    <j.5:noteRangeTo rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</j.5:noteRangeTo>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <j.5:changeable rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</j.5:changeable>
+    <rdfs:domain rdf:resource="http://vocab.optum.com/UHG2015/class#Eligibility"/>
+    <j.5:unique rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</j.5:unique>
+    <j.5:translatable rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</j.5:translatable>
+    <rdfs:subPropertyOf rdf:resource="http://smartlogic.com/OntologyServer#TextNoteType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#117037158239203746540575">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Benefits"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#117037158239203746540575_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#164525258321559942430155"/>
+    <j.1:guid>3a3f5510-ae88-5340-8ef1-35f1a7ff7b06</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#54091635187401736773042_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">eligible family members</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#162250368493430617328065_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Behavioral health</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#122065641739072665441374_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Care Transitions</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#164525258321559942430155">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Benefits"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#164525258321559942430155_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#166983189514356966944402"/>
+    <j.1:guid>585ed6d0-0063-57cd-bf10-afdfe163c3e6</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#164525258321559942430155_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">urgent care</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#192310951075564454818766">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Benefits"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#192310951075564454818766_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#166983189514356966944402"/>
+    <j.1:guid>3e93777f-c26b-5be1-b6e6-652cf9d9422b</j.1:guid>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#177990100111603489469225_English_181"/>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#76768815157470754758_English_177"/>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#177990100111603489469225_English_188"/>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#102607718530739159793174_English_172"/>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#69210453143965871414349_English_202"/>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#76768815157470754758_English_192"/>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#147780034427219824085132_English_170"/>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#102607718530739159793174_English_197"/>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#69210453143965871414349_English_173"/>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#147780034427219824085132_English_182"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#191379280292005527997706">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Organizations"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#191379280292005527997706_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#193499641546086612174516"/>
+    <j.1:guid>13f11302-c0fc-550d-974a-69e2378950f7</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/POC-Healthcare-Taxo#appliesTo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">appliesTo</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:domain rdf:resource="http://vocab.optum.com/UHG2015/class#Health-Plan-Types"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#related"/>
+    <owl:inverseOf rdf:resource="http://example.com/POC-Healthcare-Taxo#belongsTo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#82274194420762789923492_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">urgent care visits</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#129343894079354510462590">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Benefits"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#129343894079354510462590_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#166983189514356966944402"/>
+    <j.1:guid>e7d9dec5-fb6d-5abb-9bd2-43e5fa4e3178</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#21869552545695626266346_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Nurseline Agent</j.8:literalForm>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/conceptScheme#UHG_PoC_Taxonomy">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <rdfs:label>UHG PoC Taxonomy</rdfs:label>
+    <j.1:guid>8c0b9ef7-a082-4904-b837-a6558efc73d5</j.1:guid>
+    <j.6:hasTopConcept rdf:resource="http://vocab.optum.com/UHG2015/term#10772599227523669682489"/>
+    <j.6:hasTopConcept rdf:resource="http://vocab.optum.com/UHG2015/term#85980571729228241913228"/>
+    <j.6:hasTopConcept rdf:resource="http://vocab.optum.com/UHG2015/term#43575049490525076922483"/>
+    <j.6:hasTopConcept rdf:resource="http://vocab.optum.com/UHG2015/term#166983189514356966944402"/>
+    <j.6:hasTopConcept rdf:resource="http://vocab.optum.com/UHG2015/term#198685889863903851367525"/>
+    <j.6:hasTopConcept rdf:resource="http://vocab.optum.com/UHG2015/term#94968718269708299355578"/>
+    <j.6:hasTopConcept rdf:resource="http://vocab.optum.com/UHG2015/term#188649781228246759609102"/>
+    <j.6:hasTopConcept rdf:resource="http://vocab.optum.com/UHG2015/term#148383578003930800247165"/>
+    <j.6:hasTopConcept rdf:resource="http://vocab.optum.com/UHG2015/term#34826095005580749438236"/>
+    <j.6:hasTopConcept rdf:resource="http://vocab.optum.com/UHG2015/term#193499641546086612174516"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#10829447324378005053679_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Kaiser Permanente</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/Optum-Healthcare-Taxonomy#priority-topic-for">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">Priority Topic For</rdfs:label>
+    <rdfs:range rdf:resource="http://vocab.optum.com/UHG2015/class#Role"/>
+    <rdfs:domain rdf:resource="http://vocab.optum.com/UHG2015/class#Health-Topics"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#related"/>
+    <owl:inverseOf rdf:resource="http://example.com/Optum-Healthcare-Taxonomy#has-Priority-Topic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#135013490376659396268263_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Lung Conditions</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#144376776363965112846542_English_173">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Boy Scouts</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#85980571729228241913228">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Health-Topics"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#85980571729228241913228_English"/>
+    <j.1:guid>031050a6-ad7a-5a8c-af0f-7e34041126ae</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#651855356050013051024943160016389_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Dentist</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/noteType#site_url_14">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>site_url</rdfs:label>
+    <j.5:noteRangeFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</j.5:noteRangeFrom>
+    <j.5:noteRangeTo rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4000</j.5:noteRangeTo>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <j.5:changeable rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</j.5:changeable>
+    <rdfs:domain rdf:resource="http://vocab.optum.com/UHG2015/class#Organizations"/>
+    <j.5:unique rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</j.5:unique>
+    <j.5:translatable rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</j.5:translatable>
+    <rdfs:subPropertyOf rdf:resource="http://smartlogic.com/OntologyServer#TextNoteType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#152232085953441660389875_English_190">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Flexible spending account</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#82274194420762789923492">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Benefits"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#82274194420762789923492_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#164525258321559942430155"/>
+    <j.1:guid>8b1aefb0-a54a-504d-8703-61bfb7cec8d5</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#48789629835612372852201_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">health care expense</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#4499622255995451198096">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Document-Types"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#4499622255995451198096_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#198685889863903851367525"/>
+    <j.1:guid>d19778de-6be7-5233-8406-b419f8980cd3</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/noteType#Display-name_13">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>Display name</rdfs:label>
+    <j.5:noteRangeFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</j.5:noteRangeFrom>
+    <j.5:noteRangeTo rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</j.5:noteRangeTo>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <j.5:changeable rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</j.5:changeable>
+    <rdfs:domain rdf:resource="http://vocab.optum.com/UHG2015/class#Health-Topics"/>
+    <j.5:unique rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</j.5:unique>
+    <j.5:translatable rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</j.5:translatable>
+    <rdfs:subPropertyOf rdf:resource="http://smartlogic.com/OntologyServer#TextNoteType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#155690425205682370668217">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Payments"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#155690425205682370668217_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#94968718269708299355578"/>
+    <j.1:guid>13439382-e9c3-5a9d-b205-dbebe1bd5243</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#140376529435395749074787_English_176">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">health care savings account</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#38360159151060175052359">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Benefits"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#38360159151060175052359_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#76002535666137191227255"/>
+    <j.1:guid>d1df390d-44ef-50c8-ba10-6a36666ef091</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#140376529435395749074787_English_188">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">health care savings account</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#54714804762086526978859_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Jet Blue</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#139786099161899012095532">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Payments"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#139786099161899012095532_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#94968718269708299355578"/>
+    <j.1:guid>832ea1a6-5ffc-502f-b568-25c5635e560a</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#62817405470290549914005_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">inpatient services</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#198685889863903851367525_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Document Types</j.8:literalForm>
+    <j.1:rulebaseAction rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#RulebaseActionDoNotGenerate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#144376776363965112846542_English_160">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Boy Scouts</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#197229570219460749382835_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Geriatric Care</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#148383578003930800247165_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Authorizations</j.8:literalForm>
+    <j.1:rulebaseAction rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#RulebaseActionDoNotGenerate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#113845173924048399531172">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Health-Specialities"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#113845173924048399531172_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#43575049490525076922483"/>
+    <j.1:guid>78f6530e-a411-5a36-8fb0-4a7ebd29bd4e</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/noteType#Display-name_12">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>Display name</rdfs:label>
+    <j.5:noteRangeFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</j.5:noteRangeFrom>
+    <j.5:noteRangeTo rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</j.5:noteRangeTo>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <j.5:changeable rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</j.5:changeable>
+    <rdfs:domain rdf:resource="http://vocab.optum.com/UHG2015/class#Health-Specialities"/>
+    <j.5:unique rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</j.5:unique>
+    <j.5:translatable rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</j.5:translatable>
+    <rdfs:subPropertyOf rdf:resource="http://smartlogic.com/OntologyServer#TextNoteType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#105381852461633259683253_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">home health care</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#85980571729228241913228_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Health Topics</j.8:literalForm>
+    <j.1:rulebaseAction rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#RulebaseActionDoNotGenerate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#38411167199874972362427_English_176">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">health care benefits</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#66331346310347108258939_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Allina</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#167050773480727416888637">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Benefits"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#167050773480727416888637_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#166983189514356966944402"/>
+    <j.1:guid>a5deeba8-4c15-539e-bdfb-e04af1e8fca1</j.1:guid>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#33697939418766039558012_English_169"/>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#33697939418766039558012_English_171"/>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#127072677018394784243024_English_177"/>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#127072677018394784243024_English_184"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#121304077344098210495060_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">urgent care treatment</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#651855356050013051024943160016389">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Health-Specialities"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#651855356050013051024943160016389_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#43575049490525076922483"/>
+    <j.1:guid>cf90fc85-5728-5204-9107-1cf5a1585902</j.1:guid>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#154398434528090570760336525046834_English_179"/>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#253482431736272778894186484266241_English_207"/>
+    <j.6:related rdf:resource="http://vocab.optum.com/UHG2015/term#721516037057663896386917400377521"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#64093512967595138371749_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">veterinary office visits</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#82433707311839097469625">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Health-Topics"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#82433707311839097469625_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#85980571729228241913228"/>
+    <j.1:guid>b120f888-13f9-5d78-9156-0d4cf0825849</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#348099819430915868385574043418526_English_201">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">UHC</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#25840259065960886366615">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Benefits"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#25840259065960886366615_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#166983189514356966944402"/>
+    <j.1:guid>a515b5a7-5bb0-528f-8d2b-e097981079bc</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#164097454477781941906350_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Preferred Provider Organization</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#75959018168295003251672_English_191">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Resources for Aging</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#146916089047348388355539_English_185">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">CHF</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/noteType#Display-name_15">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>Display name</rdfs:label>
+    <j.5:noteRangeFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</j.5:noteRangeFrom>
+    <j.5:noteRangeTo rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</j.5:noteRangeTo>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <j.5:changeable rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</j.5:changeable>
+    <rdfs:domain rdf:resource="http://vocab.optum.com/UHG2015/class#Role"/>
+    <j.5:unique rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</j.5:unique>
+    <j.5:translatable rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</j.5:translatable>
+    <rdfs:subPropertyOf rdf:resource="http://smartlogic.com/OntologyServer#TextNoteType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/class#Payments">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Payments</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#34826095005580749438236">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Health-Plan-Types"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#34826095005580749438236_English"/>
+    <j.1:guid>d1f54b4a-00c4-52ae-bac9-478036411f9e</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#37403107624460715243087_English_204">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Health Care FSA</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#126968772488976242937645_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">preventive care</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#177990100111603489469225_English_188">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">prescription drug cost</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#6341487138811321866308">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Document-Types"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#6341487138811321866308_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#198685889863903851367525"/>
+    <j.1:guid>f9e2a4e3-0ca6-5c49-a9b4-74f66d070e39</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#94047319142587576831360">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Organizations"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#94047319142587576831360_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#193499641546086612174516"/>
+    <j.1:guid>355b0fed-f307-5c80-8d81-89f10aee482b</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#43575049490525076922483_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Health Specialities</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#175552158369751003412522_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">urgent care facility</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#58410508019209839142556_English_178">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">preventative care visits</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/noteType#Display-name_14">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>Display name</rdfs:label>
+    <j.5:noteRangeFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</j.5:noteRangeFrom>
+    <j.5:noteRangeTo rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</j.5:noteRangeTo>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <j.5:changeable rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</j.5:changeable>
+    <rdfs:domain rdf:resource="http://vocab.optum.com/UHG2015/class#Organizations"/>
+    <j.5:unique rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</j.5:unique>
+    <j.5:translatable rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</j.5:translatable>
+    <rdfs:subPropertyOf rdf:resource="http://smartlogic.com/OntologyServer#TextNoteType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#54091635187401736773042">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Eligibility"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#54091635187401736773042_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#10772599227523669682489"/>
+    <j.1:guid>b9bfffd1-f9eb-5f72-ae27-e64274532e74</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#10694756101558264146405">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Document-Types"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#10694756101558264146405_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#198685889863903851367525"/>
+    <j.1:guid>5246f0ef-4587-5845-9173-8fa4bcb0a0fb</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#188417423444138987595208_English_185">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">complete list</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#83635202756730983124675_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Health Care Financial Planning</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#43575049490525076922483">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Health-Specialities"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#43575049490525076922483_English"/>
+    <j.1:guid>9c5be484-7bef-591c-a17f-d7cc2f40c8b4</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#164597639298935384822855_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Chronic Obstructive Pulmonary Disease</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#154179450265739950586996_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Benefits Guide</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#146216099318490643838586_English_210">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">CAD</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#52861121849998942955932_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">coinsurance amounts</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#58410508019209839142556_English_189">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">preventative care visits</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#28273261200362808298336_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">health savings account</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#83174912205044526226008">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Benefits"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#83174912205044526226008_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#166983189514356966944402"/>
+    <j.1:guid>f954c6b5-6792-52e1-af48-c689d43f8b89</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#155690425205682370668217_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Actual costs</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#1448484313225398716802_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Covered spouses</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#170983203113575510991131_English_206">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Family members</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#101054131010034373160847_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Depression</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#15203692431740279287411">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Benefits"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#15203692431740279287411_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#166983189514356966944402"/>
+    <j.1:guid>c8b27347-cbf2-5357-b9fd-5be3905cb509</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#140253926599718194855143_English_182">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">FSA</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#174485229452293415390216">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Health-Plan-Types"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#174485229452293415390216_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#34826095005580749438236"/>
+    <j.1:guid>ad998353-8efa-57ef-98df-7ae248ad26df</j.1:guid>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#125140923509343733070795_English_164"/>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#125140923509343733070795_English_183"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#182050217120255688790245_English_192">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">eligibility requirement</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#136175378997704337985206">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Eligibility"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#136175378997704337985206_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#10772599227523669682489"/>
+    <j.1:guid>5c5a5850-7db9-5685-b2d5-0511ec5172cc</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/class#Organizations">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Organizations</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#77571555736161329356944_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Coronary Artery Disease</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://smartlogic.com/OntologyServer#NoteType">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#85700602256672137858493_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Ace</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#40125755032539984595346989532213">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Health-Specialities"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#40125755032539984595346989532213_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#43575049490525076922483"/>
+    <j.1:guid>7cbfc757-558b-4f5a-8676-5a79fb5df100</j.1:guid>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#113845173924048399531172_English_178"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#174485229452293415390216_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Health Management Organization</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/POC-Healthcare-Taxo#belongsTo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">belongsTo</rdfs:label>
+    <rdfs:range rdf:resource="http://vocab.optum.com/UHG2015/class#Health-Plan-Types"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#related"/>
+    <owl:inverseOf rdf:resource="http://example.com/POC-Healthcare-Taxo#appliesTo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#125672853350752259384799_English_166">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">BSOA</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#29707022062014897904217_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">dental care</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://smartlogic.com/OntologyServer#noteScale">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#103419478111742568843381_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Guide</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#82433707311839097469625_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Hearing Loss</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#46269562421597873492899">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Health-Topics"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#46269562421597873492899_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#85980571729228241913228"/>
+    <j.1:guid>aa679a09-8d01-5dba-9fc3-83e296c67f51</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/class#Health-Specialities">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Health Specialities</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#66331346310347108258939">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Organizations"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#66331346310347108258939_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#191379280292005527997706"/>
+    <j.1:guid>e6cbb623-4d6e-5cce-891b-91c7b4404e8f</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#82255895813927300114390">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Organizations"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#82255895813927300114390_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#193499641546086612174516"/>
+    <j.1:guid>dfe76581-8b0a-5016-ad07-8c335ecedee7</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#88262754915187456259543_English_159">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">HSA</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#25952524992848994462227_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">registered nurses</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#127072677018394784243024_English_184">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">vision plan</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#146916089047348388355539_English_170">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">CHF</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#348099819430915868737987261986625_English_174">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">UHG</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#142346253078772580425445">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Organizations"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#142346253078772580425445_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#191379280292005527997706"/>
+    <j.1:guid>b3aea068-5bfd-5e5d-9503-401069f9759c</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#149398093576917790833676_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Ciena</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#212298675132348581858996_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Urinary Incontinence</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#150736222846460067077960_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">What's New</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://optum.com/ns/canonical/concept/Entities_Individuals">
+    <j.2:belongsTo rdf:resource="http://vocab.optum.com/UHG2015/term#55720084061667828004535"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#37403107624460715243087_English_158">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Health Care FSA</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#84473368237802091731329_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">prior authorizations</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#871402116578781662102995269219238">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Payments"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#871402116578781662102995269219238_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#94968718269708299355578"/>
+    <j.1:guid>bb1ec48a-c42d-512e-af67-8f582273556f</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#164597639298935384822855">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Health-Topics"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#164597639298935384822855_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#85980571729228241913228"/>
+    <j.1:guid>3cdf8393-69ff-5a2a-9dec-99952d63f859</j.1:guid>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#182162528600966526918357_English_175"/>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#182162528600966526918357_English_193"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#150816660148842525445397">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Health-Topics"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#150816660148842525445397_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#85980571729228241913228"/>
+    <j.1:guid>81aa3033-f48f-5f85-b840-ef949dc08ffd</j.1:guid>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#146916089047348388355539_English_170"/>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#146916089047348388355539_English_185"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#46337299319287674414568">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Benefits"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#46337299319287674414568_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#166983189514356966944402"/>
+    <j.1:guid>07dc2797-d600-5fa0-8de7-2f0452eb4352</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#40125755032539984595346989532213_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Primary Care Provider</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#192310951075564454818766_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Prescription drug coverage</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#28273261200362808298336">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Payments"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#28273261200362808298336_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#94968718269708299355578"/>
+    <j.1:guid>42b9b5fe-b0ee-54c3-9418-c8e01c6ab49e</j.1:guid>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#88262754915187456259543_English_159"/>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#140376529435395749074787_English_176"/>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#140376529435395749074787_English_188"/>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#88262754915187456259543_English_184"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#167050773480727416888637_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">eye care</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#65332267562106124998136_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Flyer</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#135013490376659396268263">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Health-Topics"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#135013490376659396268263_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#85980571729228241913228"/>
+    <j.1:guid>f52b74cb-77ed-5722-ae81-314255627f9a</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#159462236559706248776909">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Organizations"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#159462236559706248776909_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#94047319142587576831360"/>
+    <j.1:guid>b3014417-dea3-57a4-9129-dac8279eca59</j.1:guid>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#7309409650697757589447_English_190"/>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#7309409650697757589447_English_165"/>
+    <j.3:image_URL_14 xml:lang="en">http://www.bcbs.com/assets/css/images/header-bcbsa-logo-2013.png</j.3:image_URL_14>
+    <j.3:site_title_14 xml:lang="en">Blue Cross Blue Sheild</j.3:site_title_14>
+    <j.3:image_title_14 xml:lang="en">BCBS</j.3:image_title_14>
+    <j.3:site_description_14 xml:lang="en">Home page</j.3:site_description_14>
+    <j.3:site_url_14 xml:lang="en">http://www.bcbs.com/</j.3:site_url_14>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#155966682802383951322850_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Domestic partners</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#129205448902301093194927_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Pharmacies</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#113352610050741050425035">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Benefits"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#113352610050741050425035_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#166983189514356966944402"/>
+    <j.1:guid>c17b899d-b2fd-5409-b82f-0edbc1702cd7</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#203286557564184986724166">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Organizations"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#203286557564184986724166_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#191379280292005527997706"/>
+    <j.1:guid>826bf4a1-494b-5236-8c05-0caa4ac5fe55</j.1:guid>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#44367220266857558625781_English_183"/>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#44367220266857558625781_English_198"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#1994221101338254241457">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Benefits"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#1994221101338254241457_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#166983189514356966944402"/>
+    <j.1:guid>8ada3f4c-34e1-51a9-8c7b-ca485b57ab51</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#159640434811427594730092_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Asthma</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#45222881685811143542283">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Organizations"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#45222881685811143542283_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#191379280292005527997706"/>
+    <j.1:guid>6a097970-b3b2-5449-bb23-acc47ab9893a</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://smartlogic.com/OntologyServer#noteDefaultValue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#205690207139944122369253_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Benefits Advisor</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#83635202756730983124675">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Payments"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#83635202756730983124675_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#94968718269708299355578"/>
+    <j.1:guid>8d463f30-5b95-5d54-abd3-a0fbe8613699</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#164097454477781941906350">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Health-Plan-Types"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#164097454477781941906350_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#34826095005580749438236"/>
+    <j.1:guid>453baef2-0fdb-501a-afdc-9ed5753ec637</j.1:guid>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#60767617258153339791760_English_187"/>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#60767617258153339791760_English_199"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#149398093576917790833676">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Organizations"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#149398093576917790833676_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#191379280292005527997706"/>
+    <j.1:guid>29a90ede-da36-57e2-93a4-cadff1f32ada</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#63890065090158805366040_English_196">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Primary care visit</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#65332267562106124998136">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Document-Types"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#65332267562106124998136_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#198685889863903851367525"/>
+    <j.1:guid>dc489caa-51a6-58d4-b651-d4a25ed0338b</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#29707022062014897904217">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Benefits"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#29707022062014897904217_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#166983189514356966944402"/>
+    <j.1:guid>41c0f3fe-8618-5940-ad8f-8575fe65e861</j.1:guid>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#146824194134426616940822_English_186"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/noteType#Scope-note_14">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>Scope note</rdfs:label>
+    <j.5:noteRangeFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</j.5:noteRangeFrom>
+    <j.5:noteRangeTo rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4000</j.5:noteRangeTo>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <j.5:changeable rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</j.5:changeable>
+    <rdfs:domain rdf:resource="http://vocab.optum.com/UHG2015/class#Organizations"/>
+    <j.5:unique rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</j.5:unique>
+    <j.5:translatable rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</j.5:translatable>
+    <rdfs:subPropertyOf rdf:resource="http://smartlogic.com/OntologyServer#TextNoteType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#69210453143965871414349_English_173">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Prescription drug expenses</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#122691819206710869687407">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Organizations"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#122691819206710869687407_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#94047319142587576831360"/>
+    <j.1:guid>30658f1f-144d-590a-bfd6-95b3844f1fa6</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/class#Document-Types">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Document Types</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#74912651248524779782817_English_167">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Medication Resources for Seniors</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#56349728750763989657756">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Benefits"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#56349728750763989657756_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#166983189514356966944402"/>
+    <j.1:guid>208ab2a5-b3cc-5982-97f2-513d989cd071</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#22607607597346142858813_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Blood work</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#175796935927322378626868">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Payments"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#175796935927322378626868_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#94968718269708299355578"/>
+    <j.1:guid>a0a620a2-a04e-595f-94ef-252092c34be0</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#63890065090158805366040_English_171">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Primary care visit</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#178901931500972760821261">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Health-Topics"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#178901931500972760821261_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#85980571729228241913228"/>
+    <j.1:guid>17f2780c-1614-551b-ab09-c43f8718477c</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#17219982667114428059331_English_200">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">health care</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#80428760599859228794712">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Benefits"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#80428760599859228794712_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#166983189514356966944402"/>
+    <j.1:guid>58af6313-f0c3-5232-997c-c0f452e928c1</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#116958214856675336778005_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Road map</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#126968772488976242937645">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Benefits"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#126968772488976242937645_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#166983189514356966944402"/>
+    <j.1:guid>c9e3e1f1-ef46-55b4-86e8-a86ac8b7a295</j.1:guid>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#58410508019209839142556_English_189"/>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#58410508019209839142556_English_178"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#186878756856850517127648">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Benefits"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#186878756856850517127648_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#166983189514356966944402"/>
+    <j.1:guid>04c8f4c7-e000-52ad-84ee-68fc7b79541f</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#122065641739072665441374">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Health-Specialities"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#122065641739072665441374_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#197229570219460749382835"/>
+    <j.1:guid>b7995c22-7906-5f4d-9de4-cbd89e2faf8d</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#195136436595296042678802">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Payments"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#195136436595296042678802_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#94968718269708299355578"/>
+    <j.1:guid>ed27bdbc-3d09-5e96-96c5-5c140deb271e</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://smartlogic.com/OntologyServer#noteRangeFrom">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/noteType#image_title_14">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>image_title</rdfs:label>
+    <j.5:noteRangeFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</j.5:noteRangeFrom>
+    <j.5:noteRangeTo rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4000</j.5:noteRangeTo>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <j.5:changeable rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</j.5:changeable>
+    <rdfs:domain rdf:resource="http://vocab.optum.com/UHG2015/class#Organizations"/>
+    <j.5:unique rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</j.5:unique>
+    <j.5:translatable rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</j.5:translatable>
+    <rdfs:subPropertyOf rdf:resource="http://smartlogic.com/OntologyServer#TextNoteType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#125140923509343733070795_English_183">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">hmo</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#32287638831736323509026">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Benefits"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#32287638831736323509026_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#80428760599859228794712"/>
+    <j.1:guid>122bde88-f021-5711-ad74-c2ee89324f2b</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#871402116578781662102995269219238_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Co-Pay</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#113845173924048399531172_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Primary care physician</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#80428760599859228794712_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Maternity benefits</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#163796964036213072248369_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Enrollment Guide</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#88262754915187456259543_English_184">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">HSA</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#62817405470290549914005">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Benefits"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#62817405470290549914005_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#166983189514356966944402"/>
+    <j.1:guid>56598aba-25e6-5485-854e-bcfa12b65a59</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#32287638831736323509026_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">normal delivery</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#48789629835612372852201">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Payments"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#48789629835612372852201_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#94968718269708299355578"/>
+    <j.1:guid>61f1c058-f541-5aa2-b215-68ed900089ca</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#94968718269708299355578_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Claims and Payments</j.8:literalForm>
+    <j.1:rulebaseAction rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#RulebaseActionDoNotGenerate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#139786099161899012095532_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Lifetime maximum</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#96866388520323523624874_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">health inpatient services</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://smartlogic.com/OntologyServer#TextNoteType">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://smartlogic.com/OntologyServer#NoteType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#155966682802383951322850">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Eligibility"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#155966682802383951322850_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#10772599227523669682489"/>
+    <j.1:guid>bb92511c-6443-54c0-8345-91df10ffb43d</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#10694756101558264146405_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Tip Sheet</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#212298675132348581858996">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Health-Topics"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#212298675132348581858996_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#85980571729228241913228"/>
+    <j.1:guid>b0bfd7e3-dc33-583e-a98e-ec873f11c792</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#148383578003930800247165">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Authorizations"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#148383578003930800247165_English"/>
+    <j.1:guid>e8d897d6-774a-58ef-80be-ffb5b170ccbc</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#10829447324378005053679">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Organizations"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#10829447324378005053679_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#94047319142587576831360"/>
+    <j.1:guid>c67a1900-519e-588e-94c9-41418647d7e8</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#40272276073793676573432">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Organizations"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#40272276073793676573432_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#94047319142587576831360"/>
+    <j.1:guid>2744c744-cbc4-50eb-bc48-8a2f14863292</j.1:guid>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#348099819430915868385574043418526_English_201"/>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#348099819430915868737987261986625_English_174"/>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#61630949083464891804409012383503_English_172"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#46269562421597873492899_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Risk for Falls</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#188649781228246759609102_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Role</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#33697939418766039558012_English_171">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">routine eye care</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#150736222846460067077960">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Document-Types"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#150736222846460067077960_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#198685889863903851367525"/>
+    <j.1:guid>34c2ab84-2dab-5e10-a065-58115e7bb96b</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#94452434144957169800844">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Eligibility"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#94452434144957169800844_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#10772599227523669682489"/>
+    <j.1:guid>8030bde9-9733-5d7e-b9fa-e727f7a9fe73</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/class#Benefits">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Benefits</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#97662240315416269003251">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Payments"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#97662240315416269003251_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#94968718269708299355578"/>
+    <j.1:guid>06993bfb-0a39-500b-a966-fabf0375b540</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#49415945892975632196657">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Benefits"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#49415945892975632196657_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#15203692431740279287411"/>
+    <j.1:guid>6e8bfdcb-234c-5236-966a-5f98c48874fa</j.1:guid>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#9116137598724080416969_English_162"/>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#9116137598724080416969_English_205"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#56063950506450935523737_English_180">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">EPO</j.8:literalForm>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="urn:x-evn-master:POC-Healthcare-Taxo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdf:type rdf:resource="http://topbraid.org/teamwork#Vocabulary"/>
+    <owl:imports rdf:resource="http://www.smartlogic.com/2015/02/semaphore-spin-constraints"/>
+    <owl:imports rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core"/>
+    <owl:imports rdf:resource="urn:x-evn-master:Optum-Vocab"/>
+    <j.4:defaultNamespace>http://example.com/POC-Healthcare-Taxo#</j.4:defaultNamespace>
+    <rdfs:label>Sample Healthcare Ontology for Optum</rdfs:label>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#129343894079354510462590_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">MEDICAL PLAN OPTIONS</j.8:literalForm>
+    <j.8:literalForm xml:lang="en">Medical Plan Options</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#146216099318490643838586_English_168">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">CAD</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#208548627394479960882534_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Diabetes</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://smartlogic.com/OntologyServer#abbreviatiedLabel">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#6422999165996042766796_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">urgent care setting</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/class#Eligibility">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Eligibility</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#9116137598724080416969_English_205">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">overnight stay</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#25952524992848994462227">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Health-Specialities"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#25952524992848994462227_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#43575049490525076922483"/>
+    <j.1:guid>56862b1d-b233-542c-acb7-590ca45816dd</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#94452434144957169800844_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">pre existing condition</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#40272276073793676573432_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">United HealthCare</j.8:literalForm>
+    <j.8:literalForm xml:lang="en">United Heathcare</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#196402226007953781028061_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Advanced Illness Planning</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#253482431736272778894186484266241_English_207">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Doctor of Medical Dentistry</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#721516037057663896386917400377521_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Dental services</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/noteType#site_title_14">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>site_title</rdfs:label>
+    <j.5:noteRangeFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</j.5:noteRangeFrom>
+    <j.5:noteRangeTo rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4000</j.5:noteRangeTo>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <j.5:changeable rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</j.5:changeable>
+    <rdfs:domain rdf:resource="http://vocab.optum.com/UHG2015/class#Organizations"/>
+    <j.5:unique rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</j.5:unique>
+    <j.5:translatable rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</j.5:translatable>
+    <rdfs:subPropertyOf rdf:resource="http://smartlogic.com/OntologyServer#TextNoteType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#61630949083464891804409012383503_English_172">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">United Health Care</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#150816660148842525445397_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Congestive Heart Failure</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#67720466202192661993825_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">covered services</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#85700602256672137858493">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Organizations"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#85700602256672137858493_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#191379280292005527997706"/>
+    <j.1:guid>22b9abd2-0cf9-5e32-8197-0e9144b952d6</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#4499622255995451198096_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Frequently Asked Questions</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#195136436595296042678802_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">deductibles</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#133050675086128001940637_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Humana</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#140253926599718194855143_English_163">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">FSA</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#186878756856850517127648_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Outpatient surgery</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#34902535497175766423204_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Eye exams</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#7309409650697757589447_English_165">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">BCBS</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#95313710829642888260021_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Routine laboratory tests</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#119331578143053902500678_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">office visit</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#196402226007953781028061">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Health-Topics"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#196402226007953781028061_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#85980571729228241913228"/>
+    <j.1:guid>0cde0855-a8d1-5091-922b-82edabf2faef</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#116958214856675336778005">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Document-Types"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#116958214856675336778005_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#198685889863903851367525"/>
+    <j.1:guid>f6612732-a90e-5a1d-8de8-0a5367dc0f36</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#182050217120255688790245_English_209">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">eligibility requirement</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/class#Authorizations">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Authorizations</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#38360159151060175052359_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">preventive laboratory tests</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#163049352069235279202811_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Diabetes Services</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/class#Health-Topics">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Health Topics</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#125140923509343733070795_English_164">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">hmo</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://smartlogic.com/OntologyServer#addToNewTerms">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#173372194729748053343605_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Heart Disease</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#149492416932190757502033">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Document-Types"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#149492416932190757502033_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#198685889863903851367525"/>
+    <j.1:guid>1a72c94b-a55a-54f1-94c5-f3328b544dcf</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#44367220266857558625781_English_198">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">HP</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#76768815157470754758_English_192">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">medical/prescription plan</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#188649781228246759609102">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Authorizations"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#188649781228246759609102_English"/>
+    <j.1:guid>5c565822-ec8e-58ff-b689-5b8c38434888</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#191379280292005527997706_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Customers</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#83174912205044526226008_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Diagnostic tests</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#129205448902301093194927">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Organizations"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#129205448902301093194927_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#193499641546086612174516"/>
+    <j.1:guid>b7a94719-9124-5283-945a-90089427b18d</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#117037158239203746540575_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Urgent care services</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#1994221101338254241457_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Flu Shots</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#38032580447636315670666">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Health-Topics"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#38032580447636315670666_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#85980571729228241913228"/>
+    <j.1:guid>47d5b0d9-b390-5f0f-a27e-8fe731e0cbb5</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#6341487138811321866308_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Poster</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/noteType#site_description_14">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>site_description</rdfs:label>
+    <j.5:noteRangeFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</j.5:noteRangeFrom>
+    <j.5:noteRangeTo rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4000</j.5:noteRangeTo>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <j.5:changeable rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</j.5:changeable>
+    <rdfs:domain rdf:resource="http://vocab.optum.com/UHG2015/class#Organizations"/>
+    <j.5:unique rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</j.5:unique>
+    <j.5:translatable rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</j.5:translatable>
+    <rdfs:subPropertyOf rdf:resource="http://smartlogic.com/OntologyServer#TextNoteType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#133050675086128001940637">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Organizations"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#133050675086128001940637_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#94047319142587576831360"/>
+    <j.1:guid>d12b7608-89c7-55c1-87f2-ac0ac97b429f</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#127072677018394784243024_English_177">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">vision plan</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#126264567992934491820652">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Health-Plan-Types"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#126264567992934491820652_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#34826095005580749438236"/>
+    <j.1:guid>c6b39e77-20c1-52bb-93d1-aa289c4659fa</j.1:guid>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#56063950506450935523737_English_180"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#44367220266857558625781_English_183">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">HP</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://smartlogic.com/OntologyServer#relationshipScopeNote">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#45222881685811143542283_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Danaher</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#174036604011541788769369">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Document-Types"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#174036604011541788769369_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#198685889863903851367525"/>
+    <j.1:guid>c4231c0a-d6cc-5743-82c8-ddb05c5766b0</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#188417423444138987595208_English_194">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">complete list</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#55720084061667828004535_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Health Care Network</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#75053510131467088805361_English_191">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">plan document</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#25840259065960886366615_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Emergency room</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#126264567992934491820652_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">Exclusive Provider Organization</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/label#49415945892975632196657_English">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.8:literalForm xml:lang="en">overnight hospital stay</j.8:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#119331578143053902500678">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Benefits"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#119331578143053902500678_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#166983189514356966944402"/>
+    <j.1:guid>07b33fbe-d0bc-5cbe-86ef-2176ea7f9ac5</j.1:guid>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#63890065090158805366040_English_171"/>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#63890065090158805366040_English_196"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#196796755021627810038721">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Payments"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#196796755021627810038721_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#94968718269708299355578"/>
+    <j.1:guid>a1c1a944-2730-513b-8400-b090b5a96b34</j.1:guid>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#152232085953441660389875_English_190"/>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#152232085953441660389875_English_203"/>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#140253926599718194855143_English_163"/>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#140253926599718194855143_English_182"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#197229570219460749382835">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Health-Specialities"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#197229570219460749382835_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#43575049490525076922483"/>
+    <j.1:guid>efbed50e-195b-5476-b48a-512a3a4ce4ff</j.1:guid>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#75959018168295003251672_English_191"/>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#75959018168295003251672_English_161"/>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#74912651248524779782817_English_167"/>
+    <j.8:altLabel rdf:resource="http://vocab.optum.com/UHG2015/label#74912651248524779782817_English_181"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/Optum-Healthcare-Taxonomy#has-Priority-Topic">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">has Priority Topic</rdfs:label>
+    <rdfs:range rdf:resource="http://vocab.optum.com/UHG2015/class#Health-Topics"/>
+    <rdfs:domain rdf:resource="http://vocab.optum.com/UHG2015/class#Role"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#related"/>
+    <owl:inverseOf rdf:resource="http://example.com/Optum-Healthcare-Taxonomy#priority-topic-for"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#208548627394479960882534">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Health-Topics"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#208548627394479960882534_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#85980571729228241913228"/>
+    <j.1:guid>071b7ad9-a24e-5394-a31a-45bcccff04a4</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#76002535666137191227255">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Benefits"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#76002535666137191227255_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#166983189514356966944402"/>
+    <j.1:guid>26214aed-88f6-5634-95ca-3cf50dd66b60</j.1:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.optum.com/UHG2015/term#22607607597346142858813">
+    <rdf:type rdf:resource="http://vocab.optum.com/UHG2015/class#Benefits"/>
+    <j.8:prefLabel rdf:resource="http://vocab.optum.com/UHG2015/label#22607607597346142858813_English"/>
+    <j.6:broader rdf:resource="http://vocab.optum.com/UHG2015/term#76002535666137191227255"/>
+    <j.1:guid>47c28e88-9ce0-557e-9925-7a4db61acb5d</j.1:guid>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:j.1="http://topbraid.org/teamwork#" xmlns:j.2="http://www.smartlogic.com/2014/08/semaphore-core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:j.3="http://www.w3.org/2008/05/skos-xl#" xmlns:j.4="http://spinrdf.org/spin#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:topbraid-swa="http://topbraid.org/swa#">
+  
+  <rdf:Description rdf:about="http://danmccreary.com/NoSQL#ConceptScheme/NoSQL">
+    <skos:hasTopConcept rdf:resource="http://danmccreary.com/NoSQL#Search"/>
+    <skos:hasTopConcept rdf:resource="http://danmccreary.com/NoSQL#Databases"/>
+    <topbraid-swa:defaultNamespace>http://danmccreary.com/NoSQL</topbraid-swa:defaultNamespace>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <rdfs:label xml:lang="en">NoSQL</rdfs:label>
+    <j.2:guid>2caf91cd-000f-4336-9c24-70762b0041c9</j.2:guid>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://danmccreary.com/NoSQL#Column-oriented-stor/Column-oriented-stor_en">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.3:literalForm xml:lang="en">Column-oriented store</j.3:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://danmccreary.com/NoSQL#Column-family/Column-family_en">
+    <j.3:literalForm xml:lang="en">Column-family</j.3:literalForm>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://danmccreary.com/NoSQL#XML/XML_en">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.3:literalForm xml:lang="en">XML</j.3:literalForm>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://danmccreary.com/NoSQL#Search-applications">
+    <j.2:guid>ce45bbe8-3fc8-4521-bc0c-d3581fff893b</j.2:guid>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://danmccreary.com/NoSQL#Search"/>
+    <j.3:prefLabel rdf:resource="http://danmccreary.com/NoSQL#Search-applications/Search-applications_en"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://danmccreary.com/NoSQL#Column-oriented-stor">
+    <j.3:prefLabel rdf:resource="http://danmccreary.com/NoSQL#Column-oriented-stor/Column-oriented-stor_en"/>
+    <j.2:guid>f194f274-ec49-4bba-845b-3aaccd54489d</j.2:guid>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://danmccreary.com/NoSQL#Relational"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://danmccreary.com/NoSQL#Analytica">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.2:guid>bd85935e-6450-444d-a772-052ada9193dd</j.2:guid>
+    <j.3:prefLabel rdf:resource="http://danmccreary.com/NoSQL#Analytica/Analytica_en"/>
+    <skos:broader rdf:resource="http://danmccreary.com/NoSQL#Databases"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://danmccreary.com/NoSQL#Key-value/Key-value_en">
+    <j.3:literalForm xml:lang="en">Key-value</j.3:literalForm>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://danmccreary.com/NoSQL#Relational">
+    <skos:broader rdf:resource="http://danmccreary.com/NoSQL#Databases"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.3:prefLabel rdf:resource="http://danmccreary.com/NoSQL#Relational/Relational_en"/>
+    <j.2:guid>c93f4bb9-3c48-45ad-8c0e-5d5ed731cca1</j.2:guid>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://danmccreary.com/NoSQL#JSON/JSON_en">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.3:literalForm xml:lang="en">JSON</j.3:literalForm>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://danmccreary.com/NoSQL#Column-family">
+    <skos:broader rdf:resource="http://danmccreary.com/NoSQL#Databases"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.3:prefLabel rdf:resource="http://danmccreary.com/NoSQL#Column-family/Column-family_en"/>
+    <j.2:guid>f79728ce-d86f-4dc6-926e-402143860e59</j.2:guid>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://danmccreary.com/NoSQL#Document">
+    <j.2:guid>de10b977-4c29-4005-8b36-bfa2453454ab</j.2:guid>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://danmccreary.com/NoSQL#Databases"/>
+    <j.3:prefLabel rdf:resource="http://danmccreary.com/NoSQL#Document/Document_en"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://danmccreary.com/NoSQL#Search/Search_en">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.3:literalForm xml:lang="en">Search</j.3:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://danmccreary.com/NoSQL#Analytica/Analytica_en">
+    <j.3:literalForm xml:lang="en">Analytical</j.3:literalForm>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://danmccreary.com/NoSQL#Property-graph">
+    <j.2:guid>d3ece455-6549-4b32-ac7b-0e55a8e45ba6</j.2:guid>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://danmccreary.com/NoSQL#Graph"/>
+    <j.3:prefLabel rdf:resource="http://danmccreary.com/NoSQL#Property-graph/Property-graph_en"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://danmccreary.com/NoSQL#JSON">
+    <j.2:guid>aaff306f-f51f-4349-b783-2a6f54c47011</j.2:guid>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://danmccreary.com/NoSQL#Document"/>
+    <j.3:prefLabel rdf:resource="http://danmccreary.com/NoSQL#JSON/JSON_en"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://danmccreary.com/NoSQL#Databases">
+    <j.2:guid>ab6754d0-2b19-4d88-8aae-acd2d170cd1e</j.2:guid>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.3:prefLabel rdf:resource="http://danmccreary.com/NoSQL#Databases/Databases_en"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://danmccreary.com/NoSQL#Key-value">
+    <j.3:prefLabel rdf:resource="http://danmccreary.com/NoSQL#Key-value/Key-value_en"/>
+    <j.2:guid>5cb75b9c-07f8-4c7e-9119-dfb5fa1c6899</j.2:guid>
+    <skos:broader rdf:resource="http://danmccreary.com/NoSQL#Databases"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://danmccreary.com/NoSQL#Row-Store/Row-Store_en">
+    <j.3:literalForm xml:lang="en">Row store</j.3:literalForm>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://danmccreary.com/NoSQL#RDF">
+    <j.2:guid>e8f70bc6-52f1-42f8-bfde-4ecdae78c04c</j.2:guid>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://danmccreary.com/NoSQL#Graph"/>
+    <j.3:prefLabel rdf:resource="http://danmccreary.com/NoSQL#RDF/RDF_en"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://danmccreary.com/NoSQL#XML">
+    <j.2:guid>8aef3215-89fc-46d4-9d7e-51598f45315f</j.2:guid>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://danmccreary.com/NoSQL#Document"/>
+    <j.3:prefLabel rdf:resource="http://danmccreary.com/NoSQL#XML/XML_en"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://danmccreary.com/NoSQL#Search-frameworks/Search-frameworks_en">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.3:literalForm xml:lang="en">Search frameworks</j.3:literalForm>
+  </rdf:Description>
+  
+  
+  
+  <rdf:Description rdf:about="http://danmccreary.com/NoSQL#Document/Document_en">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.3:literalForm xml:lang="en">Document</j.3:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://danmccreary.com/NoSQL#Both">
+    <j.2:guid>7f5f4e73-bee3-415f-89a2-cdbc5c542a6f</j.2:guid>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://danmccreary.com/NoSQL#Document"/>
+    <j.3:prefLabel rdf:resource="http://danmccreary.com/NoSQL#Both/Both_en"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://danmccreary.com/NoSQL#RDF/RDF_en">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.3:literalForm xml:lang="en">RDF</j.3:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://danmccreary.com/NoSQL#Row-Store">
+    <j.3:prefLabel rdf:resource="http://danmccreary.com/NoSQL#Row-Store/Row-Store_en"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://danmccreary.com/NoSQL#Relational"/>
+    <j.2:guid>f4d335c8-ac5a-4523-833e-d5cc77263d7b</j.2:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://danmccreary.com/NoSQL#Search">
+    <j.2:guid>f8323c5e-77ae-4dca-9bb7-611fa452245e</j.2:guid>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.3:prefLabel rdf:resource="http://danmccreary.com/NoSQL#Search/Search_en"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://danmccreary.com/NoSQL#Search-enrichment">
+    <j.2:guid>14c9eabd-4d70-48a3-bb6c-bd946c9e0363</j.2:guid>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://danmccreary.com/NoSQL#Search"/>
+    <j.3:prefLabel rdf:resource="http://danmccreary.com/NoSQL#Search-enrichment/Search-enrichment_en"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://danmccreary.com/NoSQL#Search-applications/Search-applications_en">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.3:literalForm xml:lang="en">Search applications</j.3:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://danmccreary.com/NoSQL#Property-graph/Property-graph_en">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.3:literalForm xml:lang="en">Property graph</j.3:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:x-evn-master:NoSQL">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdf:type rdf:resource="http://topbraid.org/teamwork#Vocabulary"/>
+    <j.4:imports rdf:resource="http://www.smartlogic.com/2015/12/unique-concept-label-constraint"/>
+    <j.4:imports rdf:resource="http://www.smartlogic.com/2015/12/unique-concept-label-in-class-constraint"/>
+    <j.4:imports rdf:resource="http://www.smartlogic.com/2015/02/semaphore-spin-constraints"/>
+    <owl:imports rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://danmccreary.com/NoSQL#Graph">
+    <j.2:guid>9850b3b6-d0d6-49de-bb83-5c21c8723306</j.2:guid>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://danmccreary.com/NoSQL#Databases"/>
+    <j.3:prefLabel rdf:resource="http://danmccreary.com/NoSQL#Graph/Graph_en"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://danmccreary.com/NoSQL#Relational/Relational_en">
+    <j.3:literalForm xml:lang="en">Relational</j.3:literalForm>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://danmccreary.com/NoSQL#Graph/Graph_en">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.3:literalForm xml:lang="en">Graph</j.3:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://danmccreary.com/NoSQL#Search-enrichment/Search-enrichment_en">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.3:literalForm xml:lang="en">Search enrichment</j.3:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://danmccreary.com/NoSQL#Databases/Databases_en">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <j.3:literalForm xml:lang="en">Databases</j.3:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://danmccreary.com/NoSQL#Both/Both_en">
+    <j.3:literalForm xml:lang="en">XML and JSON</j.3:literalForm>
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://danmccreary.com/NoSQL#Search-frameworks">
+    <j.2:guid>592f3a7b-8305-40f0-a956-4f59c3a8bc43</j.2:guid>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://danmccreary.com/NoSQL#Search"/>
+    <j.3:prefLabel rdf:resource="http://danmccreary.com/NoSQL#Search-frameworks/Search-frameworks_en"/>
+  </rdf:Description>
+</rdf:RDF>

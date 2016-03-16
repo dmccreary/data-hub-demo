@@ -1,14 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:j.0="http://topbraid.org/swa#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:j.1="http://evn.topbraidlive.org/evnprojects#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:j.3="http://topbraid.org/teamwork#" xmlns:j.4="http://www.smartlogic.com/2014/08/semaphore-core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:cycle="http://example.com/Cycling-Taxonomy-V2#" xmlns:skos-xl="http://www.w3.org/2008/05/skos-xl#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  
+  <rdf:Description rdf:about="urn:x-evn-master:Cycling-Taxonomy-V2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdf:type rdf:resource="http://topbraid.org/teamwork#Vocabulary"/>
+    <rdf:type rdf:resource="http://evn.topbraidlive.org/evnprojects#Taxonomy"/>
+    <owl:imports rdf:resource="http://www.smartlogic.com/2015/02/semaphore-spin-constraints"/>
+    <owl:imports rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core"/>
+    <j.0:defaultNamespace>http://example.com/Cycling-Taxonomy-V2#</j.0:defaultNamespace>
+    <rdfs:label>Cycling Taxonomy V1</rdfs:label>
+  </rdf:Description>
+  
   <rdf:Description rdf:about="http://example.com/Cycling-Taxonomy-V2#Cycling-Equipment">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <j.4:guid>6e81dc0b-6d71-456b-853d-678eeadbd95f</j.4:guid>
     <skos-xl:prefLabel rdf:resource="http://example.com/Cycling-Taxonomy-V2#Cycling-Equipment/Cycling-Equipment_en"/>
     <skos:broader rdf:resource="http://example.com/Cycling-Taxonomy-V2#Sporting-Goods-and-Equipment"/>
   </rdf:Description>
+  
   <rdf:Description rdf:about="http://example.com/Cycling-Taxonomy-V2#Sports-and-Recreation-Services/Sports-and-Recreation-Services_en">
     <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
     <skos-xl:literalForm xml:lang="en">Sports and Recreation Services</skos-xl:literalForm>
   </rdf:Description>
+  
   <rdf:Description rdf:about="http://example.com/Cycling-Taxonomy-V2#Frames">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <j.4:guid>e6cf15ac-3735-43f7-9550-000af2f169c7</j.4:guid>

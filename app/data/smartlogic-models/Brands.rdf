@@ -1,0 +1,981 @@
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:teamwork="http://topbraid.org/teamwork#" xmlns:example="http://proto.smartlogic.com/example#" xmlns:sem="http://www.smartlogic.com/2014/08/semaphore-core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#" xmlns:spin="http://spinrdf.org/spin#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"> 
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#BrennanDavidR_">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <sem:caseSensitivity rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#CaseSensitive"/>
+    <sem:stemming rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#StemmingOff"/>
+    <skosxl:literalForm>Brennan, David R.</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#FinanceAndEconomics_fr">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <skosxl:literalForm xml:lang="fr">Finances et économie</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#PrivateCompany">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">Private Company</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://proto.smartlogic.com/example#Company"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#Pharmaceuticals_en">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <skosxl:literalForm xml:lang="en">Pharmaceuticals</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#Brands">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <rdfs:label xml:lang="en">Brands</rdfs:label>
+    <skos:hasTopConcept rdf:resource="http://proto.smartlogic.com/example#Semaphore"/>
+    <skos:hasTopConcept rdf:resource="http://proto.smartlogic.com/example#Nexium"/>
+    <skos:hasTopConcept rdf:resource="http://proto.smartlogic.com/example#Diprivan"/>
+    <skos:hasTopConcept rdf:resource="http://proto.smartlogic.com/example#Losec"/>
+    <skos:hasTopConcept rdf:resource="http://proto.smartlogic.com/example#Pulmicort"/>
+    <sem:guid>73e1582c-c652-4a19-9fd5-4ea538dd8851</sem:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#Astra_Zeneca_">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <sem:caseSensitivity rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#CaseSensitive"/>
+    <sem:stemming rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#StemmingOff"/>
+    <skosxl:literalForm>Astra Zeneca</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#CorporateSocialResponsibility">
+    <rdf:type rdf:resource="http://proto.smartlogic.com/example#Topic"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#CorporateSocialResponsibility_fr"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#CorporateSocialResponsibility_en"/>
+    <skos:broader rdf:resource="http://proto.smartlogic.com/example#Ethics"/>
+    <sem:guid>adc837b1-defb-4280-bc7c-7b5edde78b0a</sem:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#WilliamWalsh">
+    <rdf:type rdf:resource="http://proto.smartlogic.com/example#Executive"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#WilliamWalsh_"/>
+    <skosxl:altLabel rdf:resource="http://proto.smartlogic.com/example#WaslhWilliamM_"/>
+    <example:managementOf rdf:resource="http://proto.smartlogic.com/example#BritishAirwaysPLC"/>
+    <sem:guid>7353a7e9-3288-40f6-8cb4-25dfccc3951a</sem:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#AZN.L_">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <sem:caseSensitivity rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#CaseSensitive"/>
+    <sem:stemming rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#StemmingOff"/>
+    <skosxl:literalForm>AZN.L</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#TerrenceLeahy">
+    <rdf:type rdf:resource="http://proto.smartlogic.com/example#Executive"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#TerrenceLeahy_"/>
+    <skosxl:altLabel rdf:resource="http://proto.smartlogic.com/example#SirTerrence_"/>
+    <skosxl:altLabel rdf:resource="http://proto.smartlogic.com/example#SirTerrenceLeahy_"/>
+    <skosxl:altLabel rdf:resource="http://proto.smartlogic.com/example#TerryLeahy_"/>
+    <example:managementOf rdf:resource="http://proto.smartlogic.com/example#TescoPLC"/>
+    <sem:guid>26fc203f-4aa4-4a84-8cda-254f813fa747</sem:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#CommodityPrices_fr">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <skosxl:literalForm xml:lang="fr">Prix ​​des matières premières</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#Retailing">
+    <rdf:type rdf:resource="http://proto.smartlogic.com/example#Sector"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#Retailing_en"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#Retailing_fr"/>
+    <skos:broader rdf:resource="http://proto.smartlogic.com/example#ConsumerDiscretionary"/>
+    <skos:related rdf:resource="http://proto.smartlogic.com/example#FoodRetail"/>
+    <sem:guid>bacb6393-5144-45e2-82a7-c804090a2463</sem:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#subSector">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">sub sector</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="http://proto.smartlogic.com/example#sector"/>
+    <owl:inverseOf rdf:resource="http://proto.smartlogic.com/example#companiesInSubSector"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#AstraZeneca_">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <sem:caseSensitivity rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#CaseSensitive"/>
+    <sem:stemming rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#StemmingOff"/>
+    <skosxl:literalForm>AstraZeneca</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#Negligence_en">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <skosxl:literalForm xml:lang="en">Negligence</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#Compliance_en">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <skosxl:literalForm xml:lang="en">Compliance</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#IPRPharmaceuticalsInc_">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <sem:caseSensitivity rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#CaseSensitive"/>
+    <sem:stemming rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#StemmingOff"/>
+    <skosxl:literalForm>IPR Pharmaceuticals Inc</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#DavidBrennan_">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <sem:caseSensitivity rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#CaseSensitive"/>
+    <sem:stemming rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#StemmingOff"/>
+    <skosxl:literalForm>David Brennan</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#ClothingRetail">
+    <rdf:type rdf:resource="http://proto.smartlogic.com/example#Sector"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#ClothingRetail_en"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#ClothingRetail_fr"/>
+    <skos:broader rdf:resource="http://proto.smartlogic.com/example#Retailing"/>
+    <example:companiesInSector rdf:resource="http://proto.smartlogic.com/example#NextPLC"/>
+    <sem:guid>75954ef6-392c-4690-b9a5-d68df3958fb6</sem:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#ConsumerStaples_fr">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <skosxl:literalForm xml:lang="fr">Biens de consommation</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#IndustrySector">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <rdfs:label xml:lang="en">Industry sectors</rdfs:label>
+    <skos:hasTopConcept rdf:resource="http://proto.smartlogic.com/example#Transportation"/>
+    <skos:hasTopConcept rdf:resource="http://proto.smartlogic.com/example#HealthCare"/>
+    <skos:hasTopConcept rdf:resource="http://proto.smartlogic.com/example#Telecommunications"/>
+    <skos:hasTopConcept rdf:resource="http://proto.smartlogic.com/example#ConsumerDiscretionary"/>
+    <skos:hasTopConcept rdf:resource="http://proto.smartlogic.com/example#ConsumerStaples"/>
+    <sem:guid>a1de81c8-bf68-4ef9-85b5-a3b22f5c82de</sem:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#BA_">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <sem:caseSensitivity rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#CaseSensitive"/>
+    <sem:stemming rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#StemmingOff"/>
+    <skosxl:literalForm>BA</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#OilPrices_en">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <skosxl:literalForm xml:lang="en">Oil prices</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#Retailing_fr">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <skosxl:literalForm xml:lang="fr">Commerce</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#PharmaceuticalsAndBiotechnology_en">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <skosxl:literalForm xml:lang="en">Pharmaceuticals and biotechnology</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#DavidRBrennan_">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <sem:caseSensitivity rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#CaseSensitive"/>
+    <sem:stemming rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#StemmingOff"/>
+    <skosxl:literalForm>David R. Brennan</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#CorporateSocialResponsibility_en">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <skosxl:literalForm xml:lang="en">Corporate Social Responsibility</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#ExecutiveManagement">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <rdfs:label xml:lang="en">Executive management</rdfs:label>
+    <skos:hasTopConcept rdf:resource="http://proto.smartlogic.com/example#DavidBrennan"/>
+    <skos:hasTopConcept rdf:resource="http://proto.smartlogic.com/example#TerrenceLeahy"/>
+    <skos:hasTopConcept rdf:resource="http://proto.smartlogic.com/example#WilliamWalsh"/>
+    <sem:guid>e0f41fc8-655f-4970-b9b8-d3d3c7a02db3</sem:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#SmallPrivateCompany">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">Small Private Company</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://proto.smartlogic.com/example#PrivateCompany"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#Diprivan_">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <sem:caseSensitivity rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#CaseSensitive"/>
+    <sem:stemming rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#StemmingOff"/>
+    <skosxl:literalForm>Diprivan</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#Semaphore_">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <sem:caseSensitivity rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#CaseSensitive"/>
+    <sem:stemming rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#StemmingOff"/>
+    <skosxl:literalForm>Semaphore</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#AstraZenecaPLC_">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <sem:caseSensitivity rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#CaseSensitive"/>
+    <sem:stemming rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#StemmingOff"/>
+    <skosxl:literalForm>AstraZeneca PLC</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#Airlines_fr">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <skosxl:literalForm xml:lang="fr">Compagnies aériennes</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#ChildLabour_fr">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <skosxl:literalForm xml:lang="fr">Travail des enfants</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#ClothingRetail_fr">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <skosxl:literalForm xml:lang="fr">Commerce de vêtements</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#Nexium">
+    <rdf:type rdf:resource="http://proto.smartlogic.com/example#Brand"/>
+    <example:producedBy rdf:resource="http://proto.smartlogic.com/example#AstraZenecaPLC"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#Nexium_"/>
+    <sem:guid>d67b9fca-694c-47dc-ba4d-9baa40e59506</sem:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#MedicalNegligence_fr">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <skosxl:literalForm xml:lang="fr">Négligence médicale</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#TerrenceLeahy_">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <sem:caseSensitivity rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#CaseSensitive"/>
+    <sem:stemming rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#StemmingOff"/>
+    <skosxl:literalForm>Terrence Leahy</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#Labour_en">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <skosxl:literalForm xml:lang="en">Labour</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#Pulmicort">
+    <rdf:type rdf:resource="http://proto.smartlogic.com/example#Brand"/>
+    <example:producedBy rdf:resource="http://proto.smartlogic.com/example#AstraZenecaPLC"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#Pulmicort_"/>
+    <sem:guid>83ca92b8-2859-4229-a74f-b899075af8f8</sem:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#Patents_en">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <skosxl:literalForm xml:lang="en">Patents</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#acronym">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label xml:lang="en">acronym</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2008/05/skos-xl#altLabel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#FoodAndStaplesRetailing_fr">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <skosxl:literalForm xml:lang="fr">Biens de consommation et alimentation</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:x-evn-comment:aaaaaaaa-bbbb-cccc-dddd-000000000001">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Post"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-15T12:00:00+00:00</dcterms:created>
+    <sioc:about rdf:resource="http://proto.smartlogic.com/example#Brands"/>
+    <sioc:has_creator rdf:resource="urn:x-tb-users:Administrator"/>
+    <teamwork:postStatus rdf:resource="http://topbraid.org/teamwork#PostStatusDeclined"/>
+    <rdfs:comment>Awesome!</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#equivalentCompany">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdfs:domain rdf:resource="http://proto.smartlogic.com/example#Company"/>
+    <rdfs:label xml:lang="en">equivalent company</rdfs:label>
+    <rdfs:range rdf:resource="http://proto.smartlogic.com/example#Company"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#related"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#Pulmicort_">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <sem:caseSensitivity rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#CaseSensitive"/>
+    <sem:stemming rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#StemmingOff"/>
+    <skosxl:literalForm>Pulmicort</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#TerryLeahy_">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <sem:caseSensitivity rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#CaseSensitive"/>
+    <sem:stemming rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#StemmingOff"/>
+    <skosxl:literalForm>Terry Leahy</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#Losec">
+    <rdf:type rdf:resource="http://proto.smartlogic.com/example#Brand"/>
+    <example:producedBy rdf:resource="http://proto.smartlogic.com/example#AstraZenecaPLC"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#Losec_"/>
+    <sem:guid>f867b579-0d7b-4471-b55e-bd4c0e3e30e1</sem:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#LabourConditions">
+    <rdf:type rdf:resource="http://proto.smartlogic.com/example#Topic"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#LabourConditions_en"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#LabourConditions_fr"/>
+    <skos:broader rdf:resource="http://proto.smartlogic.com/example#Ethics"/>
+    <skos:broader rdf:resource="http://proto.smartlogic.com/example#Labour"/>
+    <sem:guid>c76f84ce-2499-4387-bfd6-0b431cff25d6</sem:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#DavidBrennan">
+    <rdf:type rdf:resource="http://proto.smartlogic.com/example#Executive"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#DavidBrennan_"/>
+    <skosxl:altLabel rdf:resource="http://proto.smartlogic.com/example#DavidRBrennan_"/>
+    <skosxl:altLabel rdf:resource="http://proto.smartlogic.com/example#BrennanDavidR_"/>
+    <example:managementOf rdf:resource="http://proto.smartlogic.com/example#AstraZenecaPLC"/>
+    <sem:guid>a8045120-9abe-491e-93e5-2510d166eeff</sem:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#TescoPLC_">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <sem:stemming rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#StemmingOff"/>
+    <skosxl:literalForm>Tesco PLC</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#Brand">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">Brand</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#SmartlogicLtd">
+    <rdf:type rdf:resource="http://proto.smartlogic.com/example#Company"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#SmartlogicLtd_"/>
+    <example:established rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-03-28</example:established>
+    <example:issuedShareCapital rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1780963</example:issuedShareCapital>
+    <skos:editorialNote xml:lang="en">Record custodian is Rupert Bentley</skos:editorialNote>
+    <skos:scopeNote>This concept covers all affairs of Smartlogic Semaphore Ltd since March 2007. Any affairs of Smartlogik or APR should be recorded under the APR Smartlogik Ltd term.
+It only covers UK business dealings. US matters should be recorded under Smartlogic Semaphore Inc, and group matters under Smartlogic Holdings Ltd.</skos:scopeNote>
+    <example:produces rdf:resource="http://proto.smartlogic.com/example#Semaphore"/>
+    <sem:guid>b369ae19-b1fa-4a28-887d-6e048c7e7f9a</sem:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#MedicalNegligence">
+    <rdf:type rdf:resource="http://proto.smartlogic.com/example#Topic"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#MedicalNegligence_en"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#MedicalNegligence_fr"/>
+    <skos:broader rdf:resource="http://proto.smartlogic.com/example#Negligence"/>
+    <skos:broadMatch rdf:resource="http://proto.smartlogic.com/example#HealthCare"/>
+    <sem:guid>3b0c8b19-a599-4288-a65c-decb3a9a1989</sem:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#Orange">
+    <rdf:type rdf:resource="http://proto.smartlogic.com/example#Company"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#Orange_"/>
+    <example:sign rdf:resource="http://proto.smartlogic.com/example#OrangeTelecommunicationsPLCSign_"/>
+    <skosxl:altLabel rdf:resource="http://proto.smartlogic.com/example#OrangeTelecommunicationsPLC_"/>
+    <example:sector rdf:resource="http://proto.smartlogic.com/example#Telecommunications"/>
+    <example:acronym rdf:resource="http://proto.smartlogic.com/example#OrangeTelecommunicationsPLCAcronym_"/>
+    <example:code rdf:resource="http://proto.smartlogic.com/example#OrangeTelecommunicationsPLCCode_"/>
+    <sem:guid>06abfffb-1fec-4fa5-abbf-3c5cb764156e</sem:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#DataProtection_en">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <skosxl:literalForm xml:lang="en">Data Protection</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#ConsumerStaples_en">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <skosxl:literalForm xml:lang="en">Consumer staples</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#Ethics_en">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <skosxl:literalForm xml:lang="en">Ethics</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#IPRPharmaceuticalsInc">
+    <rdf:type rdf:resource="http://proto.smartlogic.com/example#Company"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#IPRPharmaceuticalsInc_"/>
+    <skos:broader rdf:resource="http://proto.smartlogic.com/example#AstraZenecaPLC"/>
+    <sem:guid>b0471a5b-6c42-47c4-9558-5c1460048fe2</sem:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#Negligence_fr">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <skosxl:literalForm xml:lang="fr">Négligence</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#FoodRetail_fr">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <skosxl:literalForm xml:lang="fr">Distribution alimentaire</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#Transportation_fr">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <skosxl:literalForm xml:lang="fr">Transports</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#issuedShareCapital">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://proto.smartlogic.com/example#Company"/>
+    <rdfs:label xml:lang="en">issued share capital</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <skos:definition>Amount of stock issued, whether alloted or not</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#TescoPLC">
+    <rdf:type rdf:resource="http://proto.smartlogic.com/example#Company"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#TescoPLC_"/>
+    <skosxl:altLabel rdf:resource="http://proto.smartlogic.com/example#Tesco_"/>
+    <example:sector rdf:resource="http://proto.smartlogic.com/example#FoodRetail"/>
+    <example:management rdf:resource="http://proto.smartlogic.com/example#TerrenceLeahy"/>
+    <sem:guid>eff4089c-133c-459c-ac7b-87df249ad616</sem:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#Topics">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <rdfs:label xml:lang="en">Topics</rdfs:label>
+    <skos:hasTopConcept rdf:resource="http://proto.smartlogic.com/example#Ethics"/>
+    <skos:hasTopConcept rdf:resource="http://proto.smartlogic.com/example#Labour"/>
+    <skos:hasTopConcept rdf:resource="http://proto.smartlogic.com/example#LawAndRegulation"/>
+    <skos:hasTopConcept rdf:resource="http://proto.smartlogic.com/example#FinanceAndEconomics"/>
+    <sem:guid>a6d5daed-4d51-4474-bdeb-189466f16059</sem:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#LegalAndRegulatory">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">Legal and Regulatory</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://proto.smartlogic.com/example#Topic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#Technology">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">Technology</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://proto.smartlogic.com/example#Topic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#FinanceAndEconomics_en">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <skosxl:literalForm xml:lang="en">Finance &amp; economics</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#established">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://proto.smartlogic.com/example#Company"/>
+    <rdfs:label xml:lang="en">established</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <skos:definition>The incorporation date of the company</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#ChildLabour">
+    <rdf:type rdf:resource="http://proto.smartlogic.com/example#Topic"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#ChildLabour_en"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#ChildLabour_fr"/>
+    <skos:broader rdf:resource="http://proto.smartlogic.com/example#LabourConditions"/>
+    <sem:guid>82443a92-7e3a-4471-83fe-d30b9653ad18</sem:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:x-evn-comment:aaaaaaaa-bbbb-cccc-dddd-000000000002">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Post"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-15T13:00:00+00:00</dcterms:created>
+    <sioc:about rdf:resource="http://proto.smartlogic.com/example#Brands"/>
+    <sioc:has_creator rdf:resource="urn:x-tb-users:Administrator"/>
+    <teamwork:postStatus rdf:resource="http://topbraid.org/teamwork#PostStatusOpen"/>
+    <rdfs:comment>Not so awesome...</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#Retailing_en">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <skosxl:literalForm xml:lang="en">Retailing</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#Tesco_">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <sem:stemming rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#StemmingOff"/>
+    <skosxl:literalForm>Tesco</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#PharmaceuticalsAndBiotechnology_fr">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <skosxl:literalForm xml:lang="fr">Produits pharmaceutiques et biotechnologie</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#Orange_">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <sem:caseSensitivity rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#CaseSensitive"/>
+    <sem:stemming rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#StemmingOff"/>
+    <skosxl:literalForm>Orange</skosxl:literalForm>
+    <sem:rulebaseInfluence rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#RulebaseInfluenceLow"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#BritishAirwaysPLC">
+    <rdf:type rdf:resource="http://proto.smartlogic.com/example#Company"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#BritishAirwaysPLC_"/>
+    <skosxl:altLabel rdf:resource="http://proto.smartlogic.com/example#BA_"/>
+    <skosxl:altLabel rdf:resource="http://proto.smartlogic.com/example#BAY.L_"/>
+    <example:sector rdf:resource="http://proto.smartlogic.com/example#Airlines"/>
+    <example:management rdf:resource="http://proto.smartlogic.com/example#WilliamWalsh"/>
+    <sem:guid>ccc4b924-8c8b-48a8-a521-95b8c62ba97a</sem:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#ClothingRetail_en">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <skosxl:literalForm xml:lang="en">Clothing retail</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#Ethics_fr">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <skosxl:literalForm xml:lang="fr">Ethique</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#HealthCare_fr">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <skosxl:literalForm xml:lang="fr">Santé</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#Negligence">
+    <rdf:type rdf:resource="http://proto.smartlogic.com/example#Topic"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#Negligence_en"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#Negligence_fr"/>
+    <skos:broader rdf:resource="http://proto.smartlogic.com/example#LawAndRegulation"/>
+    <sem:guid>f88d231a-90d3-48fe-8e3c-471241234d5b</sem:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#Transportation_">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <skosxl:literalForm>Ezokuthutha</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#Pharmaceuticals">
+    <rdf:type rdf:resource="http://proto.smartlogic.com/example#Sector"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#Pharmaceuticals_en"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#Pharmaceuticals_fr"/>
+    <skos:broader rdf:resource="http://proto.smartlogic.com/example#PharmaceuticalsAndBiotechnology"/>
+    <example:companiesInSector rdf:resource="http://proto.smartlogic.com/example#AstraZenecaPLC"/>
+    <sem:guid>7fe76f0e-3882-4b80-ae40-b0e8b88bb5d0</sem:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#Telecommunications_en">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <skosxl:literalForm xml:lang="en">Telecommunications</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#ConsumerStaples">
+    <rdf:type rdf:resource="http://proto.smartlogic.com/example#Sector"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#ConsumerStaples_fr"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#ConsumerStaples_en"/>
+    <skos:definition xml:lang="en">Essential products such as food, beverages, tobacco and household items. Consumer staples are goods that people are unable or unwilling to cut out of their budgets regardless of their financial situation. Consumer staples stocks are considered non-cyclical, meaning that they are always in demand, no matter how well the economy is performing. Also, people tend to demand consumer staples at a relatively constant level, regardless of their price.</skos:definition>
+    <sem:guid>51c0aa45-55f0-4d6e-a410-388217fd9665</sem:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#SirTerrenceLeahy_">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <sem:caseSensitivity rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#CaseSensitive"/>
+    <sem:stemming rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#StemmingOff"/>
+    <skosxl:literalForm>Sir Terrence Leahy</skosxl:literalForm>
+    <sem:rulebaseInfluence rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#RulebaseInfluenceHigh"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#Transportation">
+    <rdf:type rdf:resource="http://proto.smartlogic.com/example#Sector"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#Transportation_fr"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#Transportation_"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#Transportation_en"/>
+    <skos:related rdf:resource="http://proto.smartlogic.com/example#FoodRetail"/>
+    <sem:guid>de656d65-f5ad-4d46-9b04-519a2d988c02</sem:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#Patents_fr">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <skosxl:literalForm xml:lang="fr">Brevets</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#ConsumerProtection">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">Consumer Protection</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://proto.smartlogic.com/example#Topic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#companiesInSubSector">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">companies in sub sector</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="http://proto.smartlogic.com/example#companiesInSector"/>
+    <owl:inverseOf rdf:resource="http://proto.smartlogic.com/example#subSector"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:x-evn-comment:aaaaaaaa-bbbb-cccc-dddd-000000000003">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Post"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-15T14:00:00+00:00</dcterms:created>
+    <sioc:about rdf:resource="http://proto.smartlogic.com/example#Semaphore"/>
+    <sioc:has_creator rdf:resource="urn:x-tb-users:Administrator"/>
+    <teamwork:postStatus rdf:resource="http://topbraid.org/teamwork#PostStatusResolved"/>
+    <rdfs:comment>Please update location.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#Pharmaceuticals_fr">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <skosxl:literalForm xml:lang="fr">Produits pharmaceutiques</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#Ethics">
+    <rdf:type rdf:resource="http://proto.smartlogic.com/example#Topic"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#Ethics_en"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#Ethics_fr"/>
+    <sem:guid>3fb0a768-eb43-41ad-9647-e3cefb8354f8</sem:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#FoodAndStaplesRetailing_en">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <skosxl:literalForm xml:lang="en">Food &amp; staples retailing</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#Semaphore">
+    <rdf:type rdf:resource="http://proto.smartlogic.com/example#Brand"/>
+    <example:producedBy rdf:resource="http://proto.smartlogic.com/example#SmartlogicLtd"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#Semaphore_"/>
+    <skos:historyNote>Previously known as APR Smartlogik</skos:historyNote>
+    <sem:guid>a62abf3a-8ec3-4e07-9613-de1a336bec1f</sem:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#WaslhWilliamM_">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <sem:caseSensitivity rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#CaseSensitive"/>
+    <sem:stemming rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#StemmingOff"/>
+    <skosxl:literalForm>Walsh, William M.</skosxl:literalForm>
+    <sem:rulebaseBehaviour rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#RulebaseBehaviourExactPhrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#ConsumerDiscretionary">
+    <rdf:type rdf:resource="http://proto.smartlogic.com/example#Sector"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#ConsumerDiscretionary_en"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#ConsumerDiscretionary_fr"/>
+    <skos:definition xml:lang="en">A sector of the economy that consists of businesses that sell nonessential goods and services. Companies in this sector include retailers, media companies, consumer services companies, consumer durables and apparel companies, and automobiles and components companies.</skos:definition>
+    <sem:guid>fa713ba1-cb2c-49cd-98a2-c137117e3c2e</sem:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#Privacy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">Privacy</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://proto.smartlogic.com/example#Topic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#Topic">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">Topic</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#Labour">
+    <rdf:type rdf:resource="http://proto.smartlogic.com/example#Topic"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#Labour_fr"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#Labour_en"/>
+    <sem:guid>ee051f1e-b411-4b77-8791-2d0bbf998212</sem:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#LabourConditions_fr">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <skosxl:literalForm xml:lang="fr">Conditions de travail</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#BAY.L_">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <sem:stemming rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#StemmingOff"/>
+    <skosxl:literalForm>BAY.L</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#Diprivan">
+    <rdf:type rdf:resource="http://proto.smartlogic.com/example#Brand"/>
+    <example:producedBy rdf:resource="http://proto.smartlogic.com/example#AstraZenecaPLC"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#Diprivan_"/>
+    <sem:guid>fb853d76-1a47-4fb3-999d-a18a6b5a6413</sem:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#NextPLC">
+    <rdf:type rdf:resource="http://proto.smartlogic.com/example#Company"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#NextPLC_"/>
+    <example:sector rdf:resource="http://proto.smartlogic.com/example#ClothingRetail"/>
+    <sem:guid>b453139b-972b-47f1-b457-a73bc53a5b3f</sem:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:x-evn-master:myExample">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdf:type rdf:resource="http://topbraid.org/teamwork#Vocabulary"/>
+    <spin:imports rdf:resource="http://www.smartlogic.com/2015/12/unique-concept-label-constraint"/>
+    <spin:imports rdf:resource="http://www.smartlogic.com/2015/12/unique-concept-label-in-class-constraint"/>
+    <spin:imports rdf:resource="http://www.smartlogic.com/2015/02/semaphore-spin-constraints"/>
+    <owl:imports rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#HealthCare">
+    <rdf:type rdf:resource="http://proto.smartlogic.com/example#Sector"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#HealthCare_en"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#HealthCare_fr"/>
+    <skos:definition xml:lang="en">A category of stocks relating to medical and healthcare goods or services. The healthcare sector includes hospital management firms, health maintenance organizations (HMOs), biotechnology and a variety of medical products.</skos:definition>
+    <sem:guid>5cbfcbdd-b53e-4d33-a932-8630442db3d1</sem:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#FoodAndStaplesRetailing">
+    <rdf:type rdf:resource="http://proto.smartlogic.com/example#Sector"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#FoodAndStaplesRetailing_fr"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#FoodAndStaplesRetailing_en"/>
+    <skos:broader rdf:resource="http://proto.smartlogic.com/example#ConsumerStaples"/>
+    <sem:guid>17b24970-3514-4533-8d4f-63f9a6dbc8f8</sem:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#SmartlogicLtd_">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <sem:caseSensitivity rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#CaseSensitive"/>
+    <sem:stemming rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#StemmingOff"/>
+    <skosxl:literalForm>Smartlogic Ltd</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept">
+    <sem:rulebaseAction rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#RulebaseActionGenerate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#SirTerrence_">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <sem:caseSensitivity rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#CaseSensitive"/>
+    <sem:stemming rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#StemmingOff"/>
+    <skosxl:literalForm>Sir Terrence</skosxl:literalForm>
+    <sem:rulebaseInfluence rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#RulebaseInfluenceLow"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:x-evn-comment:aaaaaaaa-bbbb-cccc-dddd-000000000004">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Post"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-15T15:00:00+00:00</dcterms:created>
+    <sioc:about rdf:resource="http://proto.smartlogic.com/example#Semaphore"/>
+    <sioc:has_creator rdf:resource="urn:x-tb-users:Administrator"/>
+    <teamwork:postStatus rdf:resource="http://topbraid.org/teamwork#PostStatusOpen"/>
+    <rdfs:comment>Location updated.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#WilliamWalsh_">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <sem:caseSensitivity rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#CaseSensitive"/>
+    <sem:stemming rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#StemmingOff"/>
+    <skosxl:literalForm>William Walsh</skosxl:literalForm>
+    <sem:rulebaseBehaviour rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#RulebaseBehaviourExactPhrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#NextPLC_">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <sem:caseSensitivity rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#CaseSensitive"/>
+    <sem:stemming rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#StemmingOff"/>
+    <skosxl:literalForm>Next PLC</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#Transportation_en">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <skosxl:literalForm xml:lang="en">Transportation</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#Companies">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <rdfs:label xml:lang="en">Companies</rdfs:label>
+    <skos:hasTopConcept rdf:resource="http://proto.smartlogic.com/example#SmartlogicLtd"/>
+    <skos:hasTopConcept rdf:resource="http://proto.smartlogic.com/example#AstraZenecaPLC"/>
+    <skos:hasTopConcept rdf:resource="http://proto.smartlogic.com/example#Orange"/>
+    <skos:hasTopConcept rdf:resource="http://proto.smartlogic.com/example#BritishAirwaysPLC"/>
+    <skos:hasTopConcept rdf:resource="http://proto.smartlogic.com/example#NextPLC"/>
+    <skos:hasTopConcept rdf:resource="http://proto.smartlogic.com/example#TescoPLC"/>
+    <sem:guid>5f1c309e-ad0d-4b03-8840-6a4ecb601a13</sem:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#OrangeTelecommunicationsPLCCode_">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <sem:stemming rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#StemmingOff"/>
+    <skosxl:literalForm>Orange Telecommunications PLC</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#FinanceAndEconomics">
+    <rdf:type rdf:resource="http://proto.smartlogic.com/example#Topic"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#FinanceAndEconomics_en"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#FinanceAndEconomics_fr"/>
+    <sem:guid>08d615e6-9642-4899-8064-9136b1c8b26f</sem:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#OrangeTelecommunicationsPLC_">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <sem:stemming rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#StemmingOff"/>
+    <skosxl:literalForm>Orange Telecommunications PLC</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#management">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://proto.smartlogic.com/example#Company"/>
+    <rdfs:label xml:lang="en">management</rdfs:label>
+    <rdfs:range rdf:resource="http://proto.smartlogic.com/example#Executive"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#related"/>
+    <owl:inverseOf rdf:resource="http://proto.smartlogic.com/example#managementOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#Losec_">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <sem:caseSensitivity rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#CaseSensitive"/>
+    <sem:stemming rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#StemmingOff"/>
+    <skosxl:literalForm>Losec</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#Executive">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">Executive</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#HealthCare_en">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <skosxl:literalForm xml:lang="en">Health care</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#managementOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://proto.smartlogic.com/example#Executive"/>
+    <rdfs:label xml:lang="en">management of</rdfs:label>
+    <rdfs:range rdf:resource="http://proto.smartlogic.com/example#Company"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#related"/>
+    <owl:inverseOf rdf:resource="http://proto.smartlogic.com/example#management"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#OrangeTelecommunicationsPLCSign_">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <sem:stemming rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#StemmingOff"/>
+    <skosxl:literalForm>Orange Telecommunications PLC</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#FoodRetail_en">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <skosxl:literalForm xml:lang="en">Food retail</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#ConsumerDiscretionary_fr">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <skosxl:literalForm xml:lang="fr">Consommation discrétionnaire</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#Telecommunications">
+    <rdf:type rdf:resource="http://proto.smartlogic.com/example#Sector"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#Telecommunications_fr"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#Telecommunications_en"/>
+    <example:companiesInSector rdf:resource="http://proto.smartlogic.com/example#Orange"/>
+    <sem:guid>8c1e9627-c4a9-4b49-8ece-eb03e498f62f</sem:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#producedBy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://proto.smartlogic.com/example#Brand"/>
+    <rdfs:label xml:lang="en">produced by</rdfs:label>
+    <rdfs:range rdf:resource="http://proto.smartlogic.com/example#Company"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#related"/>
+    <owl:inverseOf rdf:resource="http://proto.smartlogic.com/example#produces"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#Nexium_">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <sem:caseSensitivity rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#CaseSensitive"/>
+    <sem:stemming rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#StemmingOff"/>
+    <skosxl:literalForm>Nexium</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2008/05/skos-xl#Label">
+    <sem:caseSensitivity rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#CaseInsensitive"/>
+    <sem:stemming rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#StemmingOn"/>
+    <sem:rulebaseInfluence rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#RulebaseInfluenceNormal"/>
+    <sem:rulebaseBehaviour rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#RulebaseBehaviourPhraseVariants"/>
+    <sem:alphabeticalIndex rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#AlphabeticalIndexingOn"/>
+    <sem:autocompletion rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#AutocompletionOn"/>
+    <sem:characterEscaping rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#EscapeSpecialCharacters"/>
+    <sem:conceptMapping rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#ConceptMappingOn"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#CioCompany">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">CIO Company</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://proto.smartlogic.com/example#Company"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#Telecommunications_fr">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <skosxl:literalForm xml:lang="fr">Télécommunications</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#LawAndRegulation_en">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <skosxl:literalForm xml:lang="en">Law &amp; regulation</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#FoodRetail">
+    <rdf:type rdf:resource="http://proto.smartlogic.com/example#Sector"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#FoodRetail_fr"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#FoodRetail_en"/>
+    <skos:broader rdf:resource="http://proto.smartlogic.com/example#FoodAndStaplesRetailing"/>
+    <example:companiesInSector rdf:resource="http://proto.smartlogic.com/example#TescoPLC"/>
+    <skos:related rdf:resource="http://proto.smartlogic.com/example#Retailing"/>
+    <skos:related rdf:resource="http://proto.smartlogic.com/example#Transportation"/>
+    <sem:guid>c2d68b45-af5a-4ce6-afcf-3d7070d2456b</sem:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#BritishAirwaysPLC_">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <sem:caseSensitivity rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#CaseSensitive"/>
+    <sem:stemming rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#StemmingOff"/>
+    <skosxl:literalForm>British Airways PLC</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#DataProtection">
+    <rdf:type rdf:resource="http://proto.smartlogic.com/example#Privacy"/>
+    <rdf:type rdf:resource="http://proto.smartlogic.com/example#Technology"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#DataProtection_en"/>
+    <skos:broader rdf:resource="http://proto.smartlogic.com/example#LawAndRegulation"/>
+    <sem:guid>70865aed-edce-4636-9a77-90b7a90b0d7e</sem:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#companiesInSector">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://proto.smartlogic.com/example#Sector"/>
+    <rdfs:label xml:lang="en">companies in sector</rdfs:label>
+    <rdfs:range rdf:resource="http://proto.smartlogic.com/example#Company"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#related"/>
+    <owl:inverseOf rdf:resource="http://proto.smartlogic.com/example#sector"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#BankingSupervision">
+    <rdf:type rdf:resource="http://proto.smartlogic.com/example#ConsumerProtection"/>
+    <rdf:type rdf:resource="http://proto.smartlogic.com/example#LegalAndRegulatory"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#BankingSupervision_en"/>
+    <skos:broader rdf:resource="http://proto.smartlogic.com/example#LawAndRegulation"/>
+    <sem:guid>821ad317-171e-4a20-bf14-8b71714a112f</sem:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#Patents">
+    <rdf:type rdf:resource="http://proto.smartlogic.com/example#Topic"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#Patents_en"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#Patents_fr"/>
+    <skos:broader rdf:resource="http://proto.smartlogic.com/example#LawAndRegulation"/>
+    <sem:guid>0ab2bc0c-d853-41d4-9db9-afb78d226299</sem:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#Airlines">
+    <rdf:type rdf:resource="http://proto.smartlogic.com/example#Sector"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#Airlines_en"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#Airlines_fr"/>
+    <skos:broader rdf:resource="http://proto.smartlogic.com/example#Transportation"/>
+    <example:companiesInSector rdf:resource="http://proto.smartlogic.com/example#BritishAirwaysPLC"/>
+    <sem:guid>796e601d-45ab-47e1-bf21-eadfa59e34ef</sem:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#OrangeTelecommunicationsPLCAcronym_">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <sem:stemming rdf:resource="http://www.smartlogic.com/2014/08/semaphore-core#StemmingOff"/>
+    <skosxl:literalForm>Orange Telecommunications PLC</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#Company">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">Company</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#BankingSupervision_en">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <skosxl:literalForm xml:lang="en">Banking Supervision</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#LabourConditions_en">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <skosxl:literalForm xml:lang="en">Labour conditions</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#LawAndRegulation">
+    <rdf:type rdf:resource="http://proto.smartlogic.com/example#Topic"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#LawAndRegulation_en"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#LawAndRegulation_fr"/>
+    <sem:guid>d8a66e41-88d0-4bd5-9bae-b230e58095e3</sem:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#CommodityPrices_en">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <skosxl:literalForm xml:lang="en">Commodity prices</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#CommodityPrices">
+    <rdf:type rdf:resource="http://proto.smartlogic.com/example#Topic"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#CommodityPrices_en"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#CommodityPrices_fr"/>
+    <skos:broader rdf:resource="http://proto.smartlogic.com/example#FinanceAndEconomics"/>
+    <sem:guid>de517f11-c3bc-454a-8c16-d90b56026730</sem:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#produces">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://proto.smartlogic.com/example#Company"/>
+    <rdfs:label xml:lang="en">produces</rdfs:label>
+    <rdfs:range rdf:resource="http://proto.smartlogic.com/example#Brand"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#related"/>
+    <owl:inverseOf rdf:resource="http://proto.smartlogic.com/example#producedBy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#Compliance_fr">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <skosxl:literalForm xml:lang="fr">Conformité</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#Compliance">
+    <rdf:type rdf:resource="http://proto.smartlogic.com/example#Topic"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#Compliance_en"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#Compliance_fr"/>
+    <skos:broader rdf:resource="http://proto.smartlogic.com/example#LawAndRegulation"/>
+    <sem:guid>ed2e4c41-79d2-4ccb-82f4-bb93b45837b3</sem:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#OilPrices_fr">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <skosxl:literalForm xml:lang="fr">Prix ​​du pétrole</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#sector">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://proto.smartlogic.com/example#Company"/>
+    <rdfs:label xml:lang="en">sector</rdfs:label>
+    <rdfs:range rdf:resource="http://proto.smartlogic.com/example#Sector"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#related"/>
+    <owl:inverseOf rdf:resource="http://proto.smartlogic.com/example#companiesInSector"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#AstraZenecaPLC">
+    <rdf:type rdf:resource="http://proto.smartlogic.com/example#Company"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#AstraZenecaPLC_"/>
+    <skosxl:altLabel rdf:resource="http://proto.smartlogic.com/example#AZN.L_"/>
+    <skosxl:altLabel rdf:resource="http://proto.smartlogic.com/example#AstraZeneca_"/>
+    <skosxl:altLabel rdf:resource="http://proto.smartlogic.com/example#Astra_Zeneca_"/>
+    <example:sector rdf:resource="http://proto.smartlogic.com/example#Pharmaceuticals"/>
+    <example:management rdf:resource="http://proto.smartlogic.com/example#DavidBrennan"/>
+    <example:produces rdf:resource="http://proto.smartlogic.com/example#Nexium"/>
+    <example:produces rdf:resource="http://proto.smartlogic.com/example#Diprivan"/>
+    <example:produces rdf:resource="http://proto.smartlogic.com/example#Losec"/>
+    <example:produces rdf:resource="http://proto.smartlogic.com/example#Pulmicort"/>
+    <sem:guid>cc5cc192-c68b-4f1a-9315-ecabd4078f0c</sem:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#PharmaceuticalsAndBiotechnology">
+    <rdf:type rdf:resource="http://proto.smartlogic.com/example#Sector"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#PharmaceuticalsAndBiotechnology_fr"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#PharmaceuticalsAndBiotechnology_en"/>
+    <skos:broader rdf:resource="http://proto.smartlogic.com/example#HealthCare"/>
+    <sem:guid>081530da-a1e2-4cff-9ebc-af7f3aa820fc</sem:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#Airlines_en">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <skosxl:literalForm xml:lang="en">Airlines</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#code">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label xml:lang="en">code</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2008/05/skos-xl#altLabel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#ChildLabour_en">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <skosxl:literalForm xml:lang="en">Child labour</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#ConsumerDiscretionary_en">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <skosxl:literalForm xml:lang="en">Consumer discretionary</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#CicCompany">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">CIC Company</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://proto.smartlogic.com/example#Company"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#Labour_fr">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <skosxl:literalForm xml:lang="fr">Travail</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#Sector">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">Sector</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#MedicalNegligence_en">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <skosxl:literalForm xml:lang="en">Medical negligence</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#sign">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label xml:lang="en">sign</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2008/05/skos-xl#altLabel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#CorporateSocialResponsibility_fr">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <skosxl:literalForm xml:lang="fr">Responsabilité sociale des entreprises</skosxl:literalForm>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#OilPrices">
+    <rdf:type rdf:resource="http://proto.smartlogic.com/example#Topic"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#OilPrices_fr"/>
+    <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#OilPrices_en"/>
+    <skos:broader rdf:resource="http://proto.smartlogic.com/example#CommodityPrices"/>
+    <sem:guid>bd2a7547-35ff-4485-a253-ae2579c2e5bb</sem:guid>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://proto.smartlogic.com/example#LawAndRegulation_fr">
+    <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+    <skosxl:literalForm xml:lang="fr">Lois et règlementations</skosxl:literalForm>
+  </rdf:Description>
+</rdf:RDF>

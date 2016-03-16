@@ -27,6 +27,7 @@
     <skos-xl:prefLabel rdf:resource="http://example.com/Cycling-Taxonomy-V2#Bicycle-Rentals/Bicycle-Rentals_en"/>
     <skos:broader rdf:resource="http://example.com/Cycling-Taxonomy-V2#Outdoor-Recreational-Activities"/>
   </rdf:Description>
+  
   <rdf:Description rdf:about="urn:x-evn-master:Cycling-Taxonomy-V2">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
     <rdf:type rdf:resource="http://topbraid.org/teamwork#Vocabulary"/>
@@ -36,6 +37,7 @@
     <j.0:defaultNamespace>http://example.com/Cycling-Taxonomy-V2#</j.0:defaultNamespace>
     <rdfs:label>Cycling Taxonomy V2</rdfs:label>
   </rdf:Description>
+  
   <rdf:Description rdf:about="http://example.com/Cycling-Taxonomy-V2#Bicycle-Repair-Kits">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <j.4:guid>9835c0ff-28d8-4002-8faf-b25279359872</j.4:guid>
@@ -43,21 +45,25 @@
     <skos:broader rdf:resource="http://example.com/Cycling-Taxonomy-V2#Bicycle-Tools"/>
     <cycle:Has-acronym rdf:resource="http://example.com/Cycling-Taxonomy-V2#Bicycle-Repair-Kits/BRK_en"/>
   </rdf:Description>
+  
   <rdf:Description rdf:about="http://example.com/Cycling-Taxonomy-V2#Brakes/Brakes_en">
     <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
     <skos-xl:literalForm xml:lang="en">Brakes</skos-xl:literalForm>
   </rdf:Description>
+  
   <rdf:Description rdf:about="http://example.com/Cycling-Taxonomy-V2#Sports-and-Recreation-Repair-and-Maintenance/Sports-and-Recreation-Repair-and-Maintenance_en">
     <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
     <skos-xl:literalForm xml:lang="en">Sports and Recreation Repair and
       Maintenance</skos-xl:literalForm>
   </rdf:Description>
+  
   <rdf:Description rdf:about="http://example.com/Cycling-Taxonomy-V2#Chains">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <j.4:guid>53a10d7a-a8c1-49a3-af87-85b0b20fe55d</j.4:guid>
     <skos-xl:prefLabel rdf:resource="http://example.com/Cycling-Taxonomy-V2#Chains/Chains_en"/>
     <skos:broader rdf:resource="http://example.com/Cycling-Taxonomy-V2#Bicycle-Parts-and-Accessories"/>
   </rdf:Description>
+  
   <rdf:Description rdf:about="http://example.com/Cycling-Taxonomy-V2#Wheels">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <j.4:guid>bffc072e-a922-4843-a09f-1d957a1d8215</j.4:guid>
@@ -86,14 +92,17 @@
     <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
     <skos-xl:literalForm xml:lang="en">Outdoor Recreational Activities</skos-xl:literalForm>
   </rdf:Description>
+  
   <rdf:Description rdf:about="http://example.com/Cycling-Taxonomy-V2#ConceptScheme/Cycling">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
     <rdfs:label xml:lang="en">Cycling</rdfs:label>
     <j.4:guid>c61e6d79-060f-4082-8e76-7fc292d4f842</j.4:guid>
+    
     <skos:hasTopConcept rdf:resource="http://example.com/Cycling-Taxonomy-V2#Sporting-Goods-and-Equipment"/>
     <skos:hasTopConcept rdf:resource="http://example.com/Cycling-Taxonomy-V2#Bicycle-Parts-and-Accessories"/>
     <skos:hasTopConcept rdf:resource="http://example.com/Cycling-Taxonomy-V2#Sports-and-Recreation-Services"/>
   </rdf:Description>
+  
   <rdf:Description rdf:about="http://example.com/Cycling-Taxonomy-V2#Has-acronym">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <rdfs:label xml:lang="en">Has-acronym</rdfs:label>
@@ -142,10 +151,12 @@
     <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
     <skos-xl:literalForm xml:lang="es">piezas y accesorios de la bicicleta</skos-xl:literalForm>
   </rdf:Description>
+  
   <rdf:Description rdf:about="http://example.com/Cycling-Taxonomy-V2#Sporting-Goods-and-Equipment/Sporting-Goods-and-Equipment_en">
     <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
     <skos-xl:literalForm xml:lang="en">Sporting Goods and Equipment</skos-xl:literalForm>
   </rdf:Description>
+  
   <rdf:Description rdf:about="http://example.com/Cycling-Taxonomy-V2#Tire-Levers">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <j.4:guid>4c015d54-faab-4084-9558-fef08b560245</j.4:guid>
@@ -215,12 +226,14 @@
     <skos-xl:prefLabel rdf:resource="http://example.com/Cycling-Taxonomy-V2#Handlebars/Handlebars_en"/>
     <skos:broader rdf:resource="http://example.com/Cycling-Taxonomy-V2#Bicycle-Parts-and-Accessories"/>
   </rdf:Description>
+  
   <rdf:Description rdf:about="http://example.com/Cycling-Taxonomy-V2#Cycling-Clothing">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <j.4:guid>e0129d3b-b72e-48f6-9033-8bce06de5a5f</j.4:guid>
     <skos-xl:prefLabel rdf:resource="http://example.com/Cycling-Taxonomy-V2#Cycling-Clothing/Cycling-Clothing_en"/>
     <skos:broader rdf:resource="http://example.com/Cycling-Taxonomy-V2#Sporting-Goods-and-Equipment"/>
   </rdf:Description>
+  
   <rdf:Description rdf:about="http://example.com/Cycling-Taxonomy-V2#Equipment">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:label xml:lang="en">Equipment</rdfs:label>
@@ -232,6 +245,7 @@
     <skos-xl:prefLabel rdf:resource="http://example.com/Cycling-Taxonomy-V2#Athletic-Apparel/Athletic-Apparel_en"/>
     <skos:broader rdf:resource="http://example.com/Cycling-Taxonomy-V2#Sporting-Goods-and-Equipment"/>
   </rdf:Description>
+  
   <rdf:Description rdf:about="http://example.com/Cycling-Taxonomy-V2#Bicycle-Lights/luces-de-la-bicicleta_es">
     <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
     <skos-xl:literalForm xml:lang="es">luces de la bicicleta</skos-xl:literalForm>
@@ -242,15 +256,18 @@
     <skos-xl:prefLabel rdf:resource="http://example.com/Cycling-Taxonomy-V2#Bicycle-Helmets/Bicycle-Helmets_en"/>
     <skos:broader rdf:resource="http://example.com/Cycling-Taxonomy-V2#Sporting-Goods-and-Equipment"/>
   </rdf:Description>
+  
   <rdf:Description rdf:about="http://example.com/Cycling-Taxonomy-V2#Bicycle-Lights/Bicycle-Lights_en">
     <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
     <skos-xl:literalForm xml:lang="en">Bicycle Lights</skos-xl:literalForm>
   </rdf:Description>
+  
   <rdf:Description rdf:about="http://example.com/Cycling-Taxonomy-V2#Sporting-Goods-and-Equipment">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <j.4:guid>f9533e65-e070-4790-bae2-e205b49205dc</j.4:guid>
     <skos-xl:prefLabel rdf:resource="http://example.com/Cycling-Taxonomy-V2#Sporting-Goods-and-Equipment/Sporting-Goods-and-Equipment_en"/>
   </rdf:Description>
+  
   <rdf:Description rdf:about="http://example.com/Cycling-Taxonomy-V2#Frames/Frames_en">
     <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
     <skos-xl:literalForm xml:lang="en">Frames</skos-xl:literalForm>
@@ -259,6 +276,7 @@
     <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
     <skos-xl:literalForm xml:lang="en">BRK</skos-xl:literalForm>
   </rdf:Description>
+  
   <rdf:Description rdf:about="http://example.com/Cycling-Taxonomy-V2#Bicycles">
     <rdf:type rdf:resource="http://example.com/Cycling-Taxonomy-V2#Equipment"/>
     <j.4:guid>c5cfb7d5-ff3b-497e-9083-cfd54e683f29</j.4:guid>
@@ -266,6 +284,7 @@
     <skos:broader rdf:resource="http://example.com/Cycling-Taxonomy-V2#Sporting-Goods-and-Equipment"/>
     <cycle:has-part rdf:resource="http://example.com/Cycling-Taxonomy-V2#Bicycle-Lights"/>
   </rdf:Description>
+  
   <rdf:Description rdf:about="http://example.com/Cycling-Taxonomy-V2#Bicycle-Rentals/Bicycle-Rentals_en">
     <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
     <skos-xl:literalForm xml:lang="en">Bicycle Rentals</skos-xl:literalForm>
