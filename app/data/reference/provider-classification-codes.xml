@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<reference xmlns="http://marklogic.com/data-hub-demo/reference">
+   <name>provider-classification-code</name>
+   <source>US CMS All Fee-For-Service Healthcare Providers</source>
+   <source-url>https://www.cms.gov/Research-Statistics-Data-and-Systems/Research-Statistics-Data-and-Systems.html</source-url>
+   <items>
+      <item>
+         <value>ambulatory-surgical-center</value>
+         <label>Ambulatory Surgical Center</label>
+         <abbreviation>ASC</abbreviation>
+      </item>
+      <item>
+         <value>ambulance-service</value>
+         <label>Ambulance Service</label>
+      </item>
+      <item>
+         <value>anesthesiologists</value>
+         <label>Anesthesiologists</label>
+      </item>
+      <item>
+         <value>clinical-lab</value>
+         <label>Clinical Lab</label>
+      </item>
+      <item>
+         <value>critical-access-hospital</value>
+         <label>Critical Access Hospital</label>
+      </item>
+      <item>
+         <value>durable-medical-equipment</value>
+         <label>Durable Medical Equipment</label>
+         <abbreviation>DME</abbreviation>
+      </item>
+      <item>
+         <value>federally-qualified-health-center</value>
+         <label>Federally Qualified Health Center</label>
+         <abbreviation>FQHC</abbreviation>
+      </item>
+      <item>
+         <value>home-health-agency</value>
+         <label>Home Health Agency</label>
+         <abbreviation>HHA</abbreviation>
+      </item>
+      <item>
+         <value>hospice</value>
+         <label>Hospice</label>
+      </item>
+      <item>
+         <value>hospital</value>
+         <label>Hospital</label>
+      </item>
+      <item>
+         <value>practice-administration</value>
+         <label>Practice Administration</label>
+      </item>
+      <item>
+         <value>pharmacist</value>
+         <label>Pharmacist</label>
+      </item>
+      <item>
+         <value>physician</value>
+         <label>Physician</label>
+      </item>
+      <item>
+         <value>rural-health-clinic</value>
+         <label>Rural Health Clinic</label>
+      </item>
+      <item>
+         <value>skilled-nursing-facility</value>
+         <label>Skilled Nursing Facility</label>
+      </item>
+   </items>
+</reference>

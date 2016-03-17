@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><reference xmlns="http://marklogic.com/data-hub-demo/reference-data">
+<?xml version="1.0" encoding="UTF-8"?>
+<reference xmlns="http://marklogic.com/data-hub-demo/reference">
     <name>person-gender-code</name>
     <items>
         <item>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><reference xmlns="http://marklogic.com/metadata-registry/reference-data">
+<?xml version="1.0" encoding="UTF-8"?>
+<reference xmlns="http://marklogic.com/metadata-registry/reference">
     <name>person-race-code</name>
     <items>
         <item>
