@@ -1,0 +1,18 @@
+## example of using prefix statements in SPARQL
+## this is the list of the URIs in Smartlogic
+
+PREFIX skos: <http://www.w3.org/2004/02/skos/core>
+PREFIX skosxl: <http://www.w3.org/2008/05/skos-xl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns>
+PREFIX swa: <http://topbraid.org/swa#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX env: <http://evn.topbraidlive.org/evnprojects#>
+PREFIX teamwork: <http://topbraid.org/teamwork#>
+PREFIX topbraid-swa: <http://topbraid.org/swa#>
+PREFIX semaphore-core: <http://www.smartlogic.com/2014/08/semaphore-core#>
+PREFIX refs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT *
+WHERE
+   { ?s ?o ?p .}

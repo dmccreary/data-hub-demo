@@ -11,6 +11,11 @@ declare function util:fmt-count($sequence as item()*) as xs:string {
 format-number(count($sequence), '#,###')
 };
 
+(: format integer with commas, might be an integer or a string :)
+declare function util:fmt-integer($in as item()) as xs:string {
+format-number(number($in), '#,###')
+};
+
 declare function util:fmt-duration($duration as xs:dayTimeDuration) as xs:string {
 let $total-days := round($duration div xs:dayTimeDuration('P1D'))
 let $total-days-string :=

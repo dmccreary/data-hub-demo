@@ -203,18 +203,31 @@ declare function s:element-definition($element-name as xs:string)  as xs:string*
     <rdfs:subClassOf rdf:resource="http://proto.smartlogic.com/example#Company"/>
   </rdf:Description>
   
+  
+    <rdf:Description rdf:about="http://proto.smartlogic.com/example#Semaphore">
+       <skosxl:prefLabel rdf:resource="http://proto.smartlogic.com/example#Semaphore_"/>
+    </rdf:Description>
+  
+    <rdf:Description rdf:about="http://proto.smartlogic.com/example#Semaphore_">
+      <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+      <skosxl:literalForm>Semaphore</skosxl:literalForm>
+  </rdf:Description>
+  
     :)
- declare function s:name($uri as xs:string) as xs:string {
+ declare function s:name($uri as xs:string) as xs:string* {
  let $suffix := substring-after($uri, '#')
  let $language-code := 'en'
  let $full-uri := concat($uri, '/', $suffix, '_', $language-code)
  let $literal := /rdf:RDF/rdf:Description[@rdf:about=$full-uri]/skos-xl:literalForm/text()
  let $label := /rdf:RDF/rdf:Description[@rdf:about=$uri]/rdfs:label/text()
+ let $pref-label-uri := /rdf:RDF/rdf:Description[@rdf:about=$uri]/skos-xl:prefLabel/@rdf:resource[1]
  return
     if ($literal)
        then $literal[1]
        else if ($label)
          then $label[1]
+         else if ($pref-label-uri)
+         then /rdf:RDF/rdf:Description[@rdf:about=$pref-label-uri]/skos-xl:literalForm/text()[1]
          else concat('no name found for ', $full-uri)
  };
  

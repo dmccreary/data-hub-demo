@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><test-status>
+   <test>
+      <uri>/unit-tests/preferred-label-lookup.xqy</uri>
+      <description>Test looking up a preferred label from a SKOS-XL format.</description>
+      <status>pass</status>
+   </test>
+   <test>
+      <uri>/unit-tests/</uri>
+      <description/>
+      <status>pass</status>
+   </test>
+   
+   <test>
+      <uri>/unit-tests/</uri>
+      <description/>
+      <status>pass</status>
+   </test>
+</test-status>

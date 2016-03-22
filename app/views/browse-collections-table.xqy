@@ -5,7 +5,7 @@ import module namespace style = "http://marklogic.com/data-hub/style" at "/modul
 This function requires the collection-lexicon database configuration parameter to be enabled. 
 Converts a flat list of collections into a hierarchy of collections.
 :)
-declare function local:get-subcollections($input-collection as xs:string) as element()* {
+declare function local:get-subcollections($input-collection as xs:string, $database-name as xs:string) as element()* {
 <collection>
   <name>{$input-collection}</name>
   {
@@ -14,14 +14,14 @@ declare function local:get-subcollections($input-collection as xs:string) as ele
    let $all-collections :=
       xdmp:eval('cts:collections()', (),
          <options xmlns="xdmp:eval">
-             <database>{xdmp:database('hrhub-content')}</database>
+             <database>{xdmp:database($database-name)}</database>
          </options>
          )
    for $collection in $all-collections
    return
       if (starts-with($collection, $input-collection) and count(tokenize($collection, '/')) = $next-level)
          then
-            local:get-subcollections($collection)
+            local:get-subcollections($collection, $database-name)
          else ()
     }
 </collection>
@@ -41,10 +41,12 @@ declare function local:strip-first($collection as xs:string) as xs:string {
 
 let $title := 'Document Counts By Collection'
 
+let $database-name := xdmp:get-request-field('database-name', 'data-hub')
+
 let $all-collections :=
     xdmp:eval('cts:collections()', (),
          <options xmlns="xdmp:eval">
-             <database>{xdmp:database('hrhub-content')}</database>
+             <database>{xdmp:database($database-name)}</database>
          </options>
          )
 
@@ -59,7 +61,7 @@ let $all-collections :=
 <collections>
    {for $collection in $root-level-collections
     return
-       local:get-subcollections($collection)
+       local:get-subcollections($collection, $database-name)
    }
 </collections>
 
@@ -82,7 +84,7 @@ let $html-table :=
          let $collection-count :=
             xdmp:eval($count-query, (),
                 <options xmlns="xdmp:eval">
-                    <database>{xdmp:database('hrhub-content')}</database>
+                    <database>{xdmp:database($database-name)}</database>
                 </options>
                 )
          return
@@ -118,10 +120,13 @@ let $html-table :=
 let $content := 
      <div class="container-fluid">
         <h4>{$title}</h4>
+        This query assumes we have hierarchial collection names that look like directories (/dir/subdir/subsubdir).
         Counts include all document types (Source, Atomic and Canonical)<br/>
-        Elapsed Time <b>{xdmp:elapsed-time()}</b><br/>
-        Database <b>hrhub-content</b>
+        
+        <span class="field-label">Database:</span> {$database-name}
         {$html-table}
+        Elapsed Time: {xdmp:elapsed-time() div xs:dayTimeDuration('PT1S') } seconds.
+
      </div>
 
 return style:assemble-page($title, $content)

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><code-table xmlns="http://marklogic.com/data-hub-demo/reference">
+<?xml version="1.0" encoding="UTF-8"?>
+<reference xmlns="http://marklogic.com/data-hub-demo/reference">
     <name>rxnorm-code</name>
     <source>https://www.nlm.nih.gov/research/umls/rxnorm/</source>
     <version>2014-01</version>
@@ -36668,4 +36669,4 @@
             <label>{84 (Ethinyl Estradiol 0.03 MG / Levonorgestrel 0.15 MG Oral Tablet) / 7 (Inert Ingredients 1 MG Oral Tablet) } Pack</label>
         </item>
     </items>
-</code-table>
+</reference>

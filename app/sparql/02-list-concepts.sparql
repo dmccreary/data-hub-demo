@@ -1,0 +1,4 @@
+## the simplist query
+SELECT *
+WHERE
+   { ?s ?o ?p .}

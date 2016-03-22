@@ -1,3 +1,4 @@
+xquery version "1.0-ml"; 
 import module namespace s = "http://marklogic.com/skos-xl-util" at "/modules/skos-xl-util.xqy";
 
 let $title := 'list all concpts'
@@ -11,4 +12,7 @@ return
   <ontology-name>
      {s:ontology-name($ontology-uri)}
   </ontology-name>
+  <ontology-default-namespace>
+     {s:ontology-default-namespace($ontology-uri)}
+  </ontology-default-namespace>
 </results>

@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><code-table name="ethnicity-code" version="20140401">
+<?xml version="1.0" encoding="UTF-8"?>
+<reference xmlns="http://marklogic.com/data-hub-demo/reference">
+    <name>ethnicity-code</name>
     <items>
         <item>
-            <code>2135-2</code>
+            <value>2135-2</value>
             <uri-code>hispanic-or-latino</uri-code>
             <code-system>2.16.840.1.113883.6.238</code-system>
             <code-system-name>CDCREC</code-system-name>
@@ -9,7 +11,7 @@
             <label>Hispanic or Latino</label>
         </item>
         <item>
-            <code>2186-5</code>
+            <value>2186-5</value>
             <uri-code>not-hispanic-or-latino</uri-code>
             <code-system>2.16.840.1.113883.6.238</code-system>
             <code-system-name>CDCREC</code-system-name>
@@ -17,4 +19,4 @@
             <label>Not Hispanic or Latino</label>
         </item>
     </items>
-</code-table>
+</reference>

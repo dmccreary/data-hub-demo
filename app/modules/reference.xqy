@@ -1,8 +1,8 @@
 xquery version "1.0-ml";
 
-module namespace r="http://marklogic.com/data-hub-demo/reference-data";
+module namespace r="http://marklogic.com/data-hub-demo/reference";
 (:
-import module namespace rm="http://marklogic.com/data-hub-demo/reference-data" at "/modules/reference.xqy";
+import module namespace r="http://marklogic.com/data-hub-demo/reference" at "/modules/reference.xqy";
 :)
 import module namespace json="http://marklogic.com/xdmp/json" at "/MarkLogic/json/json.xqy";
 

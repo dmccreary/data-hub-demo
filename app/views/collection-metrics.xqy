@@ -1,4 +1,5 @@
 xquery version "1.0-ml";
+import module namespace style = "http://marklogic.com/data-hub/style" at "/modules/style.xqy";
 (: General function that displays database information and list collections with counts.
    Note that the collection lexicon MUST be enabled for this to run. 
    To run this report directly in oXygen with Bootstrap formatting you must configure the Output
@@ -18,6 +19,8 @@ declare function local:add-commas($in as xs:integer) as xs:string {
   format-number($in, '#,###')
 };
 
+let $title := 'Collection Metrics'
+
 (: This depends on the collection lexicon being turned on :)
 let $collections := cts:collections()
 
@@ -28,44 +31,36 @@ let $system-name :=
      then 'Smoke'
      else 'unknown'
 
-let $html :=
-<html>
-   <head>
-      <title>Count Documents</title>
-      <!-- Latest compiled and minified CSS -->
+let $content :=
+<div class="content">
+      Hostname: <b>{$host-name} ({$system-name})</b><br/>
+      Database Name : <b>{xdmp:database-name(xdmp:database())}</b><br/>
+      MarkLogic Version: <b>{xdmp:version()}</b><br/>
+      Total Documents: <b>{format-number(xdmp:estimate(doc()), '#,###')}</b><br/>
       
-      <link rel="stylesheet" href="../resources/css/bootstrap.min.css"/>
-      <link rel="stylesheet" href="../resources/css/site.css"/>
-   </head>
-   <body>
-     <div class="container-fluid">
-            Hostname: <b>{$host-name} ({$system-name})</b><br/>
-            Database Name : <b>{xdmp:database-name(xdmp:database())}</b><br/>
-            MarkLogic Version: <b>{xdmp:version()}</b><br/>
-            Total Documents: <b>{format-number(xdmp:estimate(doc()), '#,###')}</b><br/>
-            Execution Time: <b>{seconds-from-duration(xdmp:elapsed-time())}</b> seconds.
-            Collection Count: <b>{count($collections)}</b><br/>
-            <table class="table table-striped table-bordered table-hover table-condensed">
-               <thead>
-                  <tr>
-                     <th>#</th>
-                     <th>Collection</th>
-                     <th>Document Count</th>
-                  </tr>
-               </thead>
-               <tbody>
-                  {for $collection at $count in $collections
-                    return
-                    <tr>
-                       <td>{$count}</td>
-                       <td>{$collection}</td>
-                       <td class="number">{local:add-commas(xdmp:estimate(collection($collection)))}</td>
-                    </tr>
-                  }
-               </tbody>
-        </table>
-     </div>
-   </body>
-</html>
+      Collection Count: <b>{count($collections)}</b><br/>
+      <table class="table table-striped table-bordered table-hover table-condensed">
+         <thead>
+            <tr>
+               <th>#</th>
+               <th>Collection</th>
+               <th>Document Count</th>
+            </tr>
+         </thead>
+         <tbody>
+            {for $collection at $count in $collections
+              return
+              <tr>
+                 <td>{$count}</td>
+                 <td>{$collection}</td>
+                 <td class="number">{local:add-commas(xdmp:estimate(collection($collection)))}</td>
+              </tr>
+            }
+         </tbody>
+  </table>
+  Elapsed Time: {xdmp:elapsed-time() div xs:dayTimeDuration('PT1S') } seconds.
 
-return $html
+</div>
+
+
+return style:assemble-page($title, $content)
