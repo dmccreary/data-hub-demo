@@ -12,7 +12,7 @@ let $content :=
   <span class="field-label">Concept URI: </span> {$uri}<br/>
   <span class="field-label">Default Namespace: </span> {s:ontology-default-namespace($uri)}<br/>
 
-Top Level Concepts:
+<h4>Top Level Concepts:</h4>
    <ol>
       {for $concept-uri in s:top-concepts($uri)
       return
@@ -20,14 +20,20 @@ Top Level Concepts:
       }
    </ol>
 
-OWL Classes
+<h4>OWL Classes</h4>
    <ol>
       {for $owl-uri in s:classes($uri)
       return
-         <li><a href="/views/view-class.xqy?uri={encode-for-uri($owl-uri)}">{s:name($owl-uri)}</a> - {$owl-uri}</li>
+         <li>
+            <a href="/views/view-class.xqy?uri={encode-for-uri($owl-uri)}">{s:name($owl-uri)}</a>
+            
+            - {$owl-uri}</li>
       }
    </ol>
-   
+   <h4>Transforms</h4>
+   <ol>
+      <li><a href="/transforms/store-ontlogy-as-triples.xqy?uri={$uri}">Store Ontology as MarkLogic Triples</a></li>
+   </ol>
 </div>
 
 return style:assemble-page($title, $content)

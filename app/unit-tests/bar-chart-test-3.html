@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html >
+   <head>
+      <meta charset="UTF-8"/>
+      <meta name="google" value="notranslate"/>
+      <title>CodePen - D3 Bar Chart</title>
+      <style>
+      .chart div {
+      font: 10px sans-serif;
+      background-color: steelblue;
+      text-align: right;
+      padding: 3px;
+      margin: 1px;
+      color: white;
+      }
+
+    </style>
+<script>
+  window.console = window.console || function(t) {};
+</script>
+ 
+   </head>
+   
+   <body>
+      
+      <div class="chart"></div>
+      <script src="http://d3js.org/d3.v3.min.js"  charset="utf-8"></script>
+      <script src="//assets.codepen.io/assets/common/stopExecutionOnTimeout-f961f59a28ef4fd551736b43f94620b5.js"></script>
+      
+      
+      <script>
+      var data = [
+    4,
+    8,
+    15,
+    16,
+    23,
+    42
+];
+var x = d3.scale.linear().domain([
+    0,
+    d3.max(data)
+]).range([
+    0,
+    420
+]);
+d3.select('.chart').selectAll('div').data(data).enter().append('div').style('width', function (d) {
+    return x(d) + 'px';
+}).text(function (d) {
+    return d;
+});
+      //@ sourceURL=pen.js
+    </script>
+      
+      
+      <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+      
+      
+   </body>
+</html>
+

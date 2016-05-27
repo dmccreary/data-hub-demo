@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <title>D3 Bar Chart Version 2</title>
+      <style type="text/css">
+   
+   .chart div {
+   font: 10px sans-serif;
+   background-color: steelblue;
+   text-align: right;
+   padding: 3px;
+   margin: 1px;
+   color: white;
+   }
+   
+</style>
+      <script type="application/javascript">
+         var data = [4, 8, 15, 16, 23, 42];
+         
+         var x = d3.scale.linear()
+             .domain([0, d3.max(data)])
+             .range([0, 420]);
+         
+         d3.select(".chart")
+           .selectAll("div")
+             .data(data)
+           .enter().append("div")
+             .style("width", function(d) { return x(d) + "px"; })
+             .text(function(d) { return d; });
+      </script>
+   </head>
+   <body></body>
+</html>
